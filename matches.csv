@@ -1,56 +1,56 @@
-Match_Number,Type,Group,Venue,Winner,Win_By
-1,Group,A,Dallas,U.S.A.,7 wickets (with 14 balls remaining)
-2,Group,C,Providence,West Indies,5 wickets (with 6 balls remaining)
-3,Group,B,Bridgetown,,
-4,Group,D,New York,South Africa,6 wickets (with 22 balls remaining)
-5,Group,C,Providence,Afghanistan,125 runs
-6,Group,B,Bridgetown,,
-7,Group,D,Dallas,Netherlands,6 wickets (with 8 balls remaining)
-8,Group,A,New York,India,8 wickets (with 46 balls remaining)
-9,Group,C,Providence,Uganda,3 wickets (with 10 balls remaining)
-10,Group,B,Bridgetown,Australia,39 runs
-11,Group,A,Dallas,,
-12,Group,B,Bridgetown,Scotland,5 wickets (with 9 balls remaining)
-13,Group,A,New York,Canada,12 runs
-14,Group,C,Providence,Afghanistan,84 runs
-15,Group,D,Dallas,Bangladesh,2 wickets (with 6 balls remaining)
-16,Group,D,New York,South Africa,4 wickets (with 7 balls remaining)
-17,Group,B,Bridgetown,Australia,36 runs
-18,Group,C,Providence,West Indies,134 runs
-19,Group,A,New York,India,6 runs
-20,Group,B,North Sound,Scotland,7 wickets (with 41 balls remaining)
-21,Group,D,New York,South Africa,4 runs
-22,Group,A,New York,Pakistan,7 wickets (with 15 balls remaining)
-23,Group,D,Lauderhill,,
-24,Group,B,North Sound,Australia,9 wickets (with 86 balls remaining)
-25,Group,A,New York,India,7 wickets (with 10 balls remaining)
-26,Group,C,Tarouba,West Indies,13 runs
-27,Group,D,Kingstown,Bangladesh,25 runs
-28,Group,B,North Sound,England,8 wickets (with 101 balls remaining)
-29,Group,C,Tarouba,Afghanistan,7 wickets (with 29 balls remaining)
-30,Group,A,Lauderhill,,
-31,Group,D,Kingstown,South Africa,1 run
-32,Group,C,Tarouba,New Zealand,9 wickets (with 88 balls remaining)
-33,Group,A,Lauderhill,,
-34,Group,B,North Sound,England,41 runs (DLS method)
-35,Group,B,Gros Islet,Australia,5 wickets (with 2 balls remaining)
-36,Group,A,Lauderhill,Pakistan,3 wickets (with 7 balls remaining)
-37,Group,D,Kingstown,Bangladesh,21 runs
-38,Group,D,Gros Islet,Sri Lanka,83 runs
-39,Group,C,Tarouba,New Zealand,7 wickets (with 46 balls remaining)
-40,Group,C,Gros Islet,West Indies,104 runs
-41,Super Eights,2,North Sound,South Africa,18 runs
-42,Super Eights,2,Gros Islet,England,8 wickets (with 15 balls remaining)
-43,Super Eights,1,Bridgetown,India,47 runs
-44,Super Eights,1,North Sound,Australia,28 runs (DLS method)
-45,Super Eights,2,Gros Islet,South Africa,7 runs
-46,Super Eights,2,Bridgetown,West Indies,9 wickets (with 55 balls remaining)
-47,Super Eights,1,North Sound,India,50 runs
-48,Super Eights,1,Kingstown,Afghanistan,21 runs
-49,Super Eights,2,Bridgetown,England,10 wickets (with 62 balls remaining)
-50,Super Eights,2,North Sound,South Africa,3 wickets (with 5 balls remaining) (DLS method)
-51,Super Eights,1,Gros Islet,India,24 runs
-52,Super Eights,1,Kingstown,Afghanistan,8 runs (DLS method)
-53,Semi-Final,,Tarouba,South Africa,9 wickets (with 67 balls remaining)
-54,Semi-Final,,Providence,India,68 runs
-55,Final,,Bridgetown,India,7 runs
+Match_Number,Type,Group,Venue,Team_1,Team_2,Inning_1,Inning_2,Winner,Win_By
+1,Group,A,Dallas,Canada,United States of America,194/5,197/3,U.S.A.,7 wickets (with 14 balls remaining)
+2,Group,C,Providence,Papua New Guinea,West Indies,136/8,137/5,West Indies,5 wickets (with 6 balls remaining)
+3,Group,B,Bridgetown,Oman,Namibia,109,109/6,,
+4,Group,D,New York,Sri Lanka,South Africa,77,80/4,South Africa,6 wickets (with 22 balls remaining)
+5,Group,C,Providence,Afghanistan,Uganda,183/5,58,Afghanistan,125 runs
+6,Group,B,Bridgetown,Scotland,England,90/0,,,
+7,Group,D,Dallas,Nepal,Netherlands,106,109/4,Netherlands,6 wickets (with 8 balls remaining)
+8,Group,A,New York,Ireland,India,96,97/2,India,8 wickets (with 46 balls remaining)
+9,Group,C,Providence,Papua New Guinea,Uganda,77,78/7,Uganda,3 wickets (with 10 balls remaining)
+10,Group,B,Bridgetown,Australia,Oman,164/5,125/9,Australia,39 runs
+11,Group,A,Dallas,Pakistan,United States of America,159/7,159/3,,
+12,Group,B,Bridgetown,Namibia,Scotland,155/9,157/5,Scotland,5 wickets (with 9 balls remaining)
+13,Group,A,New York,Canada,Ireland,137/7,125/7,Canada,12 runs
+14,Group,C,Providence,Afghanistan,New Zealand,159/6,75,Afghanistan,84 runs
+15,Group,D,Dallas,Sri Lanka,Bangladesh,124/9,125/8,Bangladesh,2 wickets (with 6 balls remaining)
+16,Group,D,New York,Netherlands,South Africa,103/9,106/6,South Africa,4 wickets (with 7 balls remaining)
+17,Group,B,Bridgetown,Australia,England,201/7,165/6,Australia,36 runs
+18,Group,C,Providence,West Indies,Uganda,173/5,39,West Indies,134 runs
+19,Group,A,New York,India,Pakistan,119,113/7,India,6 runs
+20,Group,B,North Sound,Oman,Scotland,150/7,153/3,Scotland,7 wickets (with 41 balls remaining)
+21,Group,D,New York,South Africa,Bangladesh,113/6,109/7,South Africa,4 runs
+22,Group,A,New York,Canada,Pakistan,106/7,107/3,Pakistan,7 wickets (with 15 balls remaining)
+23,Group,D,Lauderhill,Nepal,Sri Lanka,,,,
+24,Group,B,North Sound,Namibia,Australia,72,74/1,Australia,9 wickets (with 86 balls remaining)
+25,Group,A,New York,United States of America,India,110/8,111/3,India,7 wickets (with 10 balls remaining)
+26,Group,C,Tarouba,West Indies,New Zealand,149/9,136/9,West Indies,13 runs
+27,Group,D,Kingstown,Bangladesh,Netherlands,159/5,134/8,Bangladesh,25 runs
+28,Group,B,North Sound,Oman,England,47,50/2,England,8 wickets (with 101 balls remaining)
+29,Group,C,Tarouba,Papua New Guinea,Afghanistan,95,101/3,Afghanistan,7 wickets (with 29 balls remaining)
+30,Group,A,Lauderhill,United States of America,Ireland,,,,
+31,Group,D,Kingstown,South Africa,Nepal,115/7,114/7,South Africa,1 run
+32,Group,C,Tarouba,Uganda,New Zealand,40,41/1,New Zealand,9 wickets (with 88 balls remaining)
+33,Group,A,Lauderhill,Canada,India,,,,
+34,Group,B,North Sound,England,Namibia,122/5,84/3,England,41 runs (DLS method)
+35,Group,B,Gros Islet,Scotland,Australia,180/5,186/5,Australia,5 wickets (with 2 balls remaining)
+36,Group,A,Lauderhill,Ireland,Pakistan,106/9,111/7,Pakistan,3 wickets (with 7 balls remaining)
+37,Group,D,Kingstown,Bangladesh,Nepal,106,85,Bangladesh,21 runs
+38,Group,D,Gros Islet,Sri Lanka,Netherlands,201/6,118,Sri Lanka,83 runs
+39,Group,C,Tarouba,Papua New Guinea,New Zealand,78,79/3,New Zealand,7 wickets (with 46 balls remaining)
+40,Group,C,Gros Islet,West Indies,Afghanistan,218/5,114,West Indies,104 runs
+41,Super Eights,2,North Sound,South Africa,United States of America,194/4,176/6,South Africa,18 runs
+42,Super Eights,2,Gros Islet,West Indies,England,180/4,181/2,England,8 wickets (with 15 balls remaining)
+43,Super Eights,1,Bridgetown,India,Afghanistan,181/8,134,India,47 runs
+44,Super Eights,1,North Sound,Bangladesh,Australia,140/8,100/2,Australia,28 runs (DLS method)
+45,Super Eights,2,Gros Islet,South Africa,England,163/6,156/6,South Africa,7 runs
+46,Super Eights,2,Bridgetown,United States of America,West Indies,128,130/1,West Indies,9 wickets (with 55 balls remaining)
+47,Super Eights,1,North Sound,India,Bangladesh,196/5,146/8,India,50 runs
+48,Super Eights,1,Kingstown,Afghanistan,Australia,148/6,127,Afghanistan,21 runs
+49,Super Eights,2,Bridgetown,United States of America,England,115,117/0,England,10 wickets (with 62 balls remaining)
+50,Super Eights,2,North Sound,West Indies,South Africa,135/8,124/7,South Africa,3 wickets (with 5 balls remaining) (DLS method)
+51,Super Eights,1,Gros Islet,India,Australia,205/5,181/7,India,24 runs
+52,Super Eights,1,Kingstown,Afghanistan,Bangladesh,115/5,105,Afghanistan,8 runs (DLS method)
+53,Semi-Final,,Tarouba,Afghanistan,South Africa,56,60/1,South Africa,9 wickets (with 67 balls remaining)
+54,Semi-Final,,Providence,India,England,171/7,103,India,68 runs
+55,Final,,Bridgetown,India,South Africa,176/7,169/8,India,7 runs
