@@ -1,78 +1,63 @@
 # lib/base/extractor.rb
 
 module Base
-	# This class is responsible for extracting data from web pages.
 	class Extractor
-		# Extracts descriptions and results from the web page using the provided driver.
-		#
-		# @param driver [WebDriver] The driver used to interact with the web page.
-		# @return [Array<WebElement>] An array of web elements representing the descriptions and results.
 		def extract_descriptions_and_results(driver)
-			driver.find_elements(css: '.ds-text-tight-s.ds-font-medium.ds-text-typo')
-		end
+			elements = driver.find_elements(css: '.ds-text-tight-s.ds-font-medium.ds-text-typo')
 
-		# Extracts venues from the web page using the provided driver.
-		#
-		# @param driver [WebDriver] The driver used to interact with the web page.
-		# @return [Array<WebElement>] An array of web elements representing the venues.
-		def extract_venues(driver)
-			driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-truncate.ds-text-typo-mid3')
-		end
+			types = []
+			groups = []
+			winners = []
+			win_by = []
 
-		# Parses the descriptions and results to create an array of Match objects.
-		#
-		# @param descriptions_and_results [Array<WebElement>] An array of web elements representing the descriptions and results.
-		# @return [Array<Match>] An array of Match objects.
-		def parse_matches(descriptions_and_results)
-			matches = []
-			match_number = 1
-
-			descriptions_and_results.each_slice(2) do |description_and_result|
-				description = description_and_result[0].text
-				result = description_and_result[1].text
-
-				match = Match.new(match_number, nil, nil, nil, nil, nil, nil, nil, nil, nil)
+			elements.each_slice(2) do |element_slice|
+				description = element_slice[0].text
+				result = element_slice[1].text
 
 				if description =~ GROUP_MATCH_PATTERN
-					match.group = $1
-					match.type = 'Group'
+					groups << $1
+					types << 'Group'
 				elsif description =~ SUPER_EIGHT_MATCH_PATTERN
-					match.group = $1
-					match.type = 'Super Eights'
+					groups << $1
+					types << 'Super Eights'
 				elsif description =~ SEMI_FINAL_MATCH_PATTERN
-					match.type = 'Semi-Final'
+					groups << nil
+					types << 'Semi-Final'
 				else
-					match.type = 'Final'
+					groups << nil
+					types << 'Final'
 				end
 
-				if result =~ RESULT_PATTERN
-					match.winner = $1
-					match.win_by = $2
-				end
-
-				matches << match
-				match_number += 1
-			end
-
-			matches
-		end
-
-		# Extracts venues for each match from the web page and assigns them to the corresponding Match objects.
-		#
-		# @param matches [Array<Match>] An array of Match objects.
-		# @param venues [Array<WebElement>] An array of web elements representing the venues.
-		def extract_venues_for_matches(matches, venues)
-			matches.each_with_index do |match, i|
-				if venues[i].text =~ VENUE_PATTERN
-					match.venue = $1
+				if result =~ NORMAL_RESULT_PATTERN
+					winners << $1
+					win_by << $2
+				elsif result =~ SUPER_OVER_RESULT_PATTERN
+					winners << $1
+					win_by << 'Super over'
+				else
+					winners << nil
+					win_by << result
 				end
 			end
+
+			[types, groups, winners, win_by]
 		end
 
-		# Extracts teams and innings for each match from the web page and assigns them to the corresponding Match objects.
-		#
-		# @param driver [WebDriver] The driver used to interact with the web page.
-		# @param matches [Array<Match>] An array of Match objects.
+		def extract_venues_and_dates(driver)
+			elements = driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-truncate.ds-text-typo-mid3')
+
+			venues = []
+			dates = []
+			elements.each do |element|
+				if element.text =~ VENUE_PATTERN
+					venues << $1
+					dates << $2
+				end
+			end
+
+			[venues, dates]
+		end
+
 		def extract_teams_and_innings(driver, matches)
 			parent_elements = driver.find_elements(css: '.ci-team-score').last(2 * matches.length)
 

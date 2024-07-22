@@ -9,10 +9,10 @@ module Base
 		#
 		# @return [Selenium::WebDriver] The initialized driver
 		def initialize_driver
-			options = Selenium::WebDriver::Firefox::Options.new()
+			options = Selenium::WebDriver::Options.chrome
 			options.add_argument('--headless')
 
-			Selenium::WebDriver.for(:firefox, options: options)
+			Selenium::WebDriver.for(:chrome, options: options)
 		end
 
 		# Navigates to the specified URL using the given driver.
