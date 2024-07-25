@@ -20,7 +20,7 @@ module Base
 			case driver_type
 			when :chrome
 				options = Selenium::WebDriver::Options.chrome
-				# options.add_argument('--headless')
+				options.add_argument('--headless')
 				Selenium::WebDriver.for(:chrome, options: options)
 			when :firefox
 				options = Selenium::WebDriver::Options.firefox

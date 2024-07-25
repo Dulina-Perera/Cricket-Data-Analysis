@@ -77,6 +77,10 @@ module Base
 		end
 
 		def extract_players_of_squad(navigator, url, squad)
+			names = []
+			withdrawn = []
+			captain = []
+			vice_captain = []
 			roles = []
 			wait = Selenium::WebDriver::Wait.new(timeout: 10)
 
@@ -94,12 +98,38 @@ module Base
 
 			wait.until { navigator.driver.find_element(css: '.ds-bg-fill-content-alternate.ds-flex.ds-justify-between.ds-items-center.ds-px-4.ds-py-3.ds-border-line.ds-border-y') }
 
+			elements = navigator.driver.find_elements(css: '.ds-flex.ds-flex-row.ds-items-center.ds-justify-between')
+			elements.each do |element|
+				name = element.text.split.join(' ')
+				if name =~ WITHDRAWN_PLAYER_PATTERN
+					names << $1
+					withdrawn << true
+					captain << false
+					vice_captain << false
+				elsif name =~ PLAYER_PATTERN
+					names << $1
+					withdrawn << false
+					captain << false
+					vice_captain << false
+				elsif name =~ CAPTAIN_PATTERN
+					names << $1
+					withdrawn << false
+					captain << true
+					vice_captain << false
+				elsif name =~ VICE_CAPTAIN_PATTERN
+					names << $1
+					withdrawn << false
+					captain << false
+					vice_captain << true
+				end
+			end
+
 			elements = navigator.driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-mb-2.ds-mt-1')
 			elements.each do |element|
 				roles << element.text
 			end
 
-			roles
+			[names, withdrawn, captain, vice_captain, roles]
 		end
 	end
 end

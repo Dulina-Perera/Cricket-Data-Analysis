@@ -57,12 +57,15 @@ module Base
 			end
 
 			squads.each do |squad|
-				roles = @extractor.extract_players(@navigator, url, squad)
-				roles.each do |role|
-					puts role
-				end
-				puts '\n'
+				names, withdrawn, captain, vice_captain, roles = @extractor.extract_players_of_squad(@navigator, url, squad)
+				puts names.size
+				puts withdrawn.size
+				puts captain.size
+				puts vice_captain.size
+				puts roles.size
 			end
+
+			@navigator.finalize
 		end
 
 		private

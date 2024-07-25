@@ -1,12 +1,13 @@
 # lib/base/player.rb
 
 class Player
-	attr_accessor(:name, :team, :role, :is_captain, :is_vicecaptain, :age, :batting_style, :bowling_style)
+	attr_accessor(:name, :team, :role, :withdrawn, :is_captain, :is_vicecaptain, :age, :batting_style, :bowling_style)
 
-	def initialize(name, team, role, captain, vicecaptain, age, batting_style, bowling_style)
+	def initialize(name, team, role, withdrawn, captain, vicecaptain, age, batting_style, bowling_style)
 		@name = name
 		@team = team
 		@role = role
+		@withdrawn = withdrawn
 		@is_captain = is_captain
 		@is_vicecaptain = is_vicecaptain
 		@age = age
