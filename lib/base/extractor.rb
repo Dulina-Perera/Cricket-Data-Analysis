@@ -1,5 +1,7 @@
 # lib/base/extractor.rb
 
+require_relative 'player'
+
 module Base
 	class Extractor
 		def extract_descriptions_and_results(driver)
@@ -72,6 +74,32 @@ module Base
 				temp = parent_element[1].find_elements(tag_name: 'div')[1]
 				match.inning_2 = temp&.find_element(tag_name: 'strong')&.text
 			end
+		end
+
+		def extract_players_of_squad(navigator, url, squad)
+			roles = []
+			wait = Selenium::WebDriver::Wait.new(timeout: 10)
+
+			navigator.driver.navigate.to(url)
+
+			squad = navigator.driver.find_element(link_text: squad)
+			navigator.driver.execute_script("arguments[0].scrollIntoView(true);", squad)
+			wait.until { squad.displayed? && squad.enabled? }
+
+			begin
+				squad.click
+			rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+				navigator.driver.execute_script("arguments[0].click();", squad)
+			end
+
+			wait.until { navigator.driver.find_element(css: '.ds-bg-fill-content-alternate.ds-flex.ds-justify-between.ds-items-center.ds-px-4.ds-py-3.ds-border-line.ds-border-y') }
+
+			elements = navigator.driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-mb-2.ds-mt-1')
+			elements.each do |element|
+				roles << element.text
+			end
+
+			roles
 		end
 	end
 end

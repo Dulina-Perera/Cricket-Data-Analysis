@@ -3,8 +3,14 @@
 require 'bundler/setup'
 require_relative '../lib/base'
 
-url = 'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/match-schedule-fixtures-and-results'
-output_file = 'matches.csv'
-
 scraper = Base::Scraper.new
-scraper.scrape(url, output_file)
+
+# scraper.scrape_fixtures_and_results(
+# 	'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/match-schedule-fixtures-and-results',
+# 	'matches.csv'
+# )
+
+scraper.scrape_squads(
+	'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/squads',
+	'squads.csv'
+)

@@ -6,3 +6,7 @@ SEMI_FINAL_MATCH_PATTERN = /^.*?Semi-Final.*$/
 VENUE_PATTERN = /^.*?•\s*(.*?),\s*(.*?),\s*ICC.*$/
 NORMAL_RESULT_PATTERN = /^(.*?)\s*won\s*by\s*(.*)$/
 SUPER_OVER_RESULT_PATTERN = /^.*?\((.*?)\s*won.*$/
+
+SQUAD_PATTERN = /^(.*?)\s*Squad$/
+NAME_PATTERN = /^[a-zA-Z].*$/
+AGE_PATTERN = /^\d.*$/

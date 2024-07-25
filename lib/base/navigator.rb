@@ -3,24 +3,32 @@
 require 'selenium-webdriver'
 
 module Base
-	# This class is responsible for navigating to web pages.
 	class Navigator
-		# Initializes the driver for web scraping.
-		#
-		# @return [Selenium::WebDriver] The initialized driver
-		def initialize_driver
-			options = Selenium::WebDriver::Options.chrome
-			options.add_argument('--headless')
+		attr_reader(:driver)
 
-			Selenium::WebDriver.for(:chrome, options: options)
+		def initialize(driver_type)
+			@driver = initialize_driver(driver_type)
 		end
 
-		# Navigates to the specified URL using the given driver.
-		#
-		# @param driver [Selenium::WebDriver] The driver to use for navigation
-		# @param url [String] The URL to navigate to
-		def navigate_to_page(driver, url)
-			driver.navigate.to(url)
+		def finalize
+			@driver.quit if @driver
+		end
+
+		private
+
+		def initialize_driver(driver_type)
+			case driver_type
+			when :chrome
+				options = Selenium::WebDriver::Options.chrome
+				# options.add_argument('--headless')
+				Selenium::WebDriver.for(:chrome, options: options)
+			when :firefox
+				options = Selenium::WebDriver::Options.firefox
+				options.add_argument('--headless')
+				Selenium::WebDriver.for(:firefox, options: options)
+			else
+				raise "Unsupported driver type: #{driver_type}"
+			end
 		end
 	end
 end
