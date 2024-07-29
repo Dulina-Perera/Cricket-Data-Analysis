@@ -1,8 +1,8 @@
-# lib/base/navigator.rb
+# src/scraper/navigator.rb
 
 require 'selenium-webdriver'
 
-module Base
+module Scraper
 	class Navigator
 		attr_reader(:driver)
 
@@ -27,7 +27,7 @@ module Base
 				options.add_argument('--headless')
 				Selenium::WebDriver.for(:firefox, options: options)
 			else
-				raise "Unsupported driver type: #{driver_type}"
+				raise "Unsupported driver type: #{driver_type}\nSupported types: :chrome, :firefox"
 			end
 		end
 	end
