@@ -10,44 +10,42 @@ module Scraper
 			@navigator = Navigator.new(driver_type = :chrome)
 		end
 
+		def finalize
+			@navigator.finalize
+		end
+
 		def scrape_fixtures_and_results(url, output_file)
 			extractor = FixturesAndResultsExtractor.new(@navigator.driver)
 
-			matches = extractor.extract(url)
+			fixtures_and_results = extractor.extract(url)
 
-			save_fixtures_and_results_to_csv(matches, output_file)
+			save_fixtures_and_results_to_csv(fixtures_and_results, output_file)
 			puts "Fixtures and results saved to #{output_file}"
 		end
 
-		# def scrape_squads(url, output_file)
-		# 	@navigator.driver.navigate.to(url)
+		def scrape_squads(url, output_file)
+			extractor = SquadsExtractor.new(@navigator.driver)
 
-		# 	squads = []
-		# 	clickables = @navigator.driver.find_elements(css: '.ds-inline-flex.ds-items-start.ds-leading-none', tag_name: 'a')
-		# 	clickables.each do |clickable|
-		# 		if clickable.text =~ SQUAD_PATTERN
-		# 			squads << clickable.text
-		# 		end
-		# 	end
+			squads = extractor.extract(url)
 
-		# 	squads.each do |squad|
-		# 		names, withdrawn, captain, vice_captain, roles = @extractor.extract_players_of_squad(@navigator, url, squad)
-		# 		puts names.size
-		# 		puts withdrawn.size
-		# 		puts captain.size
-		# 		puts vice_captain.size
-		# 		puts roles.size
-		# 	end
-
-		# 	@navigator.finalize
-		# end
+			save_squads_to_csv(squads, output_file)
+			puts "Squads saved to #{output_file}"
+		end
 
 		private
 
-		def save_fixtures_and_results_to_csv(matches, filename)
+		def save_fixtures_and_results_to_csv(fixtures_and_results, filename)
 			CSV.open(filename, 'w+', write_headers: true, headers: %w[Match_Number Type Group Venue Date Team_1 Team_2 Inning_1 Inning_2 Winner Win_By]) do |csv|
-				matches.each do |match|
-					csv << match.to_h.values
+				fixtures_and_results.each do |fixture_and_result|
+					csv << fixture_and_result.to_h.values
+				end
+			end
+		end
+
+		def save_squads_to_csv(squads, filename)
+			CSV.open(filename, 'w+', write_headers: true, headers: %w[Name Team Role Has_Withdrawn Is_Captain Is_ViceCaptain Age Batting_Style Bowling_Style]) do |csv|
+				squads.each do |squad|
+					csv << squad.to_h.values
 				end
 			end
 		end

@@ -2,13 +2,13 @@
 
 module Scraper
 	class Player
-		attr_accessor(:name, :team, :role, :withdrawn, :is_captain, :is_vicecaptain, :age, :batting_style, :bowling_style)
+		attr_accessor(:name, :team, :role, :has_withdrawn, :is_captain, :is_vicecaptain, :age, :batting_style, :bowling_style)
 
-		def initialize(name, team, role, withdrawn, captain, vicecaptain, age, batting_style, bowling_style)
+		def initialize(name, team, role, has_withdrawn, is_captain, is_vicecaptain, age, batting_style, bowling_style)
 			@name = name
 			@team = team
 			@role = role
-			@withdrawn = withdrawn
+			@has_withdrawn = has_withdrawn
 			@is_captain = is_captain
 			@is_vicecaptain = is_vicecaptain
 			@age = age
@@ -21,6 +21,7 @@ module Scraper
 				'Name' => @name,
 				'Team' => @team,
 				'Role' => @role,
+				'has_withdrawn' => @has_withdrawn,
 				'Is_Captain' => @is_captain,
 				'Is_ViceCaptain' => @is_vicecaptain,
 				'Age' => @age,
@@ -35,6 +36,7 @@ module Scraper
 			@name = nil
 			@team = nil
 			@role = nil
+			@has_withdrawn = nil
 			@is_captain = nil
 			@is_vicecaptain = nil
 			@age = nil
@@ -54,6 +56,11 @@ module Scraper
 
 		def role(role)
 			@role = role
+			self
+		end
+
+		def has_withdrawn(has_withdrawn)
+			@has_withdrawn = has_withdrawn
 			self
 		end
 
@@ -83,7 +90,7 @@ module Scraper
 		end
 
 		def build
-			Player.new(@name, @team, @role, @is_captain, @is_vicecaptain, @age, @batting_style, @bowling_style)
+			Player.new(@name, @team, @role, @has_withdrawn, @is_captain, @is_vicecaptain, @age, @batting_style, @bowling_style)
 		end
 	end
 end

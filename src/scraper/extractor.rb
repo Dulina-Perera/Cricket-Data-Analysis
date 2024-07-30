@@ -65,7 +65,7 @@ module Scraper
 					match.win_by = $2
 				elsif result =~ SUPER_OVER_RESULT_PATTERN
 					match.winner = $1
-					match.win_by = 'Super Over'
+					match.win_by = 'Super over'
 				else
 					match.winner = nil
 					match.win_by = result
@@ -78,11 +78,11 @@ module Scraper
 		end
 
 		def extract_venues_and_dates(matches)
-			elements = @driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-truncate.ds-text-typo-mid3')
+			venues_and_dates = @driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-truncate.ds-text-typo-mid3')
 
 			i = 0
-			elements.each do |element|
-				if element.text =~ VENUE_PATTERN
+			venues_and_dates.each do |venue_and_date|
+				if venue_and_date.text =~ VENUE_PATTERN
 					matches[i].venue = $1
 					matches[i].date = $2
 
@@ -108,61 +108,105 @@ module Scraper
 		end
 	end
 
-	# class SquadsExtractor < Extractor
-	# 	def extract_players_of_squad(navigator, url, squad)
-	# 		names = []
-	# 		withdrawn = []
-	# 		captain = []
-	# 		vice_captain = []
-	# 		roles = []
-	# 		wait = Selenium::WebDriver::Wait.new(timeout: 10)
+	class SquadsExtractor < Extractor
+		def extract(url)
+			@driver.navigate.to(url)
 
-	# 		navigator.driver.navigate.to(url)
+			squads = []
+			clickables = @driver.find_elements(css: '.ds-inline-flex.ds-items-start.ds-leading-none', tag_name: 'a')
+			clickables.each do |clickable|
+				if clickable.text =~ SQUAD_PATTERN
+					squads << clickable.text
+				end
+			end
 
-	# 		squad = navigator.driver.find_element(link_text: squad)
-	# 		navigator.driver.execute_script("arguments[0].scrollIntoView(true);", squad)
-	# 		wait.until { squad.displayed? && squad.enabled? }
+			players = []
+			squads.each do |squad|
+				team = squad.match(SQUAD_PATTERN)[1]
+				wait = Selenium::WebDriver::Wait.new(timeout: 10)
 
-	# 		begin
-	# 			squad.click
-	# 		rescue Selenium::WebDriver::Error::ElementClickInterceptedError
-	# 			navigator.driver.execute_script("arguments[0].click();", squad)
-	# 		end
+				@driver.navigate.to(url)
 
-	# 		wait.until { navigator.driver.find_element(css: '.ds-bg-fill-content-alternate.ds-flex.ds-justify-between.ds-items-center.ds-px-4.ds-py-3.ds-border-line.ds-border-y') }
+				squad = @driver.find_element(link_text: squad)
+				@driver.execute_script("arguments[0].scrollIntoView(true);", squad)
+				wait.until { squad.displayed? && squad.enabled? }
 
-	# 		elements = navigator.driver.find_elements(css: '.ds-flex.ds-flex-row.ds-items-center.ds-justify-between')
-	# 		elements.each do |element|
-	# 			name = element.text.split.join(' ')
-	# 			if name =~ WITHDRAWN_PLAYER_PATTERN
-	# 				names << $1
-	# 				withdrawn << true
-	# 				captain << false
-	# 				vice_captain << false
-	# 			elsif name =~ PLAYER_PATTERN
-	# 				names << $1
-	# 				withdrawn << false
-	# 				captain << false
-	# 				vice_captain << false
-	# 			elsif name =~ CAPTAIN_PATTERN
-	# 				names << $1
-	# 				withdrawn << false
-	# 				captain << true
-	# 				vice_captain << false
-	# 			elsif name =~ VICE_CAPTAIN_PATTERN
-	# 				names << $1
-	# 				withdrawn << false
-	# 				captain << false
-	# 				vice_captain << true
-	# 			end
-	# 		end
+				begin
+					squad.click
+				rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+					@driver.execute_script("arguments[0].click();", squad)
+				end
 
-	# 		elements = navigator.driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-mb-2.ds-mt-1')
-	# 		elements.each do |element|
-	# 			roles << element.text
-	# 		end
+				wait.until { @driver.find_element(css: '.ds-bg-fill-content-alternate.ds-flex.ds-justify-between.ds-items-center.ds-px-4.ds-py-3.ds-border-line.ds-border-y') }
 
-	# 		[names, withdrawn, captain, vice_captain, roles]
-	# 	end
-	# end
+				players_to_add = extract_names_and_statuses
+
+				players_to_add.each do |player|
+					player.team = team
+				end
+
+				extract_roles(players_to_add)
+
+				players += players_to_add
+			end
+
+			players
+		end
+
+		private
+
+		def extract_names_and_statuses
+			players = []
+
+			names_and_statuses = @driver.find_elements(css: '.ds-flex.ds-flex-row.ds-items-center.ds-justify-between')
+			names_and_statuses.each do |name_and_status|
+				name_and_status = name_and_status.text.split.join(' ')
+
+				player = 	if name_and_status =~ WITHDRAWN_PLAYER_PATTERN
+										PlayerBuilder.new
+											.name($1)
+											.has_withdrawn(true)
+											.is_captain(false)
+											.is_vicecaptain(false)
+											.build
+									elsif name_and_status =~ CAPTAIN_PATTERN
+										PlayerBuilder.new
+											.name($1)
+											.has_withdrawn(false)
+											.is_captain(true)
+											.is_vicecaptain(false)
+											.build
+									elsif name_and_status =~ VICE_CAPTAIN_PATTERN
+										PlayerBuilder.new
+											.name($1)
+											.has_withdrawn(false)
+											.is_captain(false)
+											.is_vicecaptain(true)
+											.build
+									elsif name_and_status =~ PLAYER_PATTERN
+										PlayerBuilder.new
+											.name($1)
+											.has_withdrawn(false)
+											.is_captain(false)
+											.is_vicecaptain(false)
+											.build
+									end
+
+				players << player
+			end
+
+			players
+		end
+
+		def extract_roles(players)
+			roles = @driver.find_elements(css: '.ds-text-tight-s.ds-font-regular.ds-mb-2.ds-mt-1')
+
+			i = 0
+			roles.each do |role|
+				players[i].role = role.text
+
+				i += 1
+			end
+		end
+	end
 end
