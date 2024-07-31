@@ -7,7 +7,7 @@ scraper = Scraper::Scraper.new
 
 # scraper.scrape_fixtures_and_results(
 # 	'https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166/match-schedule-fixtures-and-results',
-# 	'matches.csv'
+# 	'fixtures_and_results.csv'
 # )
 
 scraper.scrape_squads(

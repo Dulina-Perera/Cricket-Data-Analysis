@@ -146,6 +146,9 @@ module Scraper
 				end
 
 				extract_roles(players_to_add)
+				extract_ages(players_to_add)
+
+				extract_batting_and_bowling_styles(players_to_add)
 
 				players += players_to_add
 			end
@@ -204,8 +207,42 @@ module Scraper
 			i = 0
 			roles.each do |role|
 				players[i].role = role.text
-
 				i += 1
+			end
+		end
+
+		def extract_ages(players)
+			ages = @driver.find_elements(css: '.ds-flex.ds-items-center.ds-space-x-1')
+
+			i = 0
+			ages.each do |age|
+				age = age.text.split.join(' ')
+				if age =~ AGE_PATTERN
+					players[i].age = $1
+					i += 1
+				end
+			end
+		end
+
+		def extract_batting_and_bowling_styles(players)
+			styles = @driver.find_elements(css: '.ds-flex.ds-items-start.ds-space-x-1')
+
+			i = 0
+			j = 0
+			while i < styles.length
+				if styles[i].text =~ BATTING_STYLE_PATTERN
+					players[j].batting_style = $1
+
+					if styles[i + 1].text =~ BOWLING_STYLE_PATTERN
+						players[j].bowling_style = $1
+						i += 2
+					else
+						players[j].bowling_style = nil
+						i += 1
+					end
+
+					j += 1
+				end
 			end
 		end
 	end

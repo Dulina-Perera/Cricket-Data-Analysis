@@ -12,3 +12,6 @@ PLAYER_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?$/
 CAPTAIN_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\s\(c\)$/
 VICE_CAPTAIN_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\s\(vc\)$/
 WITHDRAWN_PLAYER_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\sWithdrawn$/
+AGE_PATTERN = /^Age:\s(.*)$/
+BATTING_STYLE_PATTERN = /^Batting:\s(.*)$/
+BOWLING_STYLE_PATTERN = /^Bowling:\s(.*)$/
