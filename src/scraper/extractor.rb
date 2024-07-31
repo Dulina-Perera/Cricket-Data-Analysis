@@ -61,10 +61,10 @@ module Scraper
 				match.number = matches.length + 1
 
 				if result =~ NORMAL_RESULT_PATTERN
-					match.winner = $1
+					match.winner = translate_team_name($1)
 					match.win_by = $2
 				elsif result =~ SUPER_OVER_RESULT_PATTERN
-					match.winner = $1
+					match.winner = translate_team_name($1)
 					match.win_by = 'Super over'
 				else
 					match.winner = nil
@@ -96,8 +96,8 @@ module Scraper
 
 			parent_elements.each_slice(2).with_index do |parent_element, idx|
 				match = matches[idx]
-				match.team_1 = parent_element[0].find_elements(tag_name: 'div')[0].attribute('title')
-				match.team_2 = parent_element[1].find_elements(tag_name: 'div')[0].attribute('title')
+				match.team_1 = translate_team_name(parent_element[0].find_elements(tag_name: 'div')[0].attribute('title'))
+				match.team_2 = translate_team_name(parent_element[1].find_elements(tag_name: 'div')[0].attribute('title'))
 
 				temp = parent_element[0].find_elements(tag_name: 'div')[1]
 				match.inning_1 = temp&.find_element(tag_name: 'strong')&.text
@@ -105,6 +105,10 @@ module Scraper
 				temp = parent_element[1].find_elements(tag_name: 'div')[1]
 				match.inning_2 = temp&.find_element(tag_name: 'strong')&.text
 			end
+		end
+
+		def translate_team_name(abbreviation)
+			TEAM_NAMES[abbreviation] || abbreviation
 		end
 	end
 
