@@ -1,22 +1,8 @@
-# config/constants.rb
+# constants/maps.rb
 
-# Regular expressions for parsing the data
-GROUP_MATCH_PATTERN = /^.*?Group\s*([a-zA-Z]).*$/
-SUPER_EIGHT_MATCH_PATTERN = /^.*?Super Eights,\s*Group\s*(\d).*$/
-SEMI_FINAL_MATCH_PATTERN = /^.*?Semi-Final.*$/
-VENUE_PATTERN = /^.*?•\s*(.*?),\s*(.*?),\s*ICC.*$/
-NORMAL_RESULT_PATTERN = /^(.*?)\s*won\s*by\s*(.*)$/
-SUPER_OVER_RESULT_PATTERN = /^.*?\((.*?)\s*won.*$/
-
-SQUAD_PATTERN = /^(.*?)\s*Squad$/
-PLAYER_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?$/
-CAPTAIN_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\s\(c\)$/
-VICE_CAPTAIN_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\s\(vc\)$/
-WITHDRAWN_PLAYER_PATTERN = /^([a-zA-Z .'-]+?)(?:\s\†)?\sWithdrawn$/
-AGE_PATTERN = /^Age:\s(.*)$/
-BATTING_STYLE_PATTERN = /^Batting:\s(.*)$/
-BOWLING_STYLE_PATTERN = /^Bowling:\s(.*)$/
-
+#
+# Hash used to map team abbreviations to their long names.
+#
 TEAM_NAMES = {
 	'AFG' => 'Afghanistan',
 	'AUS' => 'Australia',
@@ -41,6 +27,9 @@ TEAM_NAMES = {
 	'WI' => 'West Indies',
 }.freeze
 
+#
+# Hash used to map player names(with initials) to their full names.
+#
 PLAYER_NAMES = {
 	"Rahmanullah Gurbaz" => "Rahmanullah Gurbaz",
 	"Hazratullah Zazai" => "Hazratullah Zazai",

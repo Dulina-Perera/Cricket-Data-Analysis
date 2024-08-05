@@ -1,6 +1,7 @@
 # lib/base/extractor.rb
 
-require_relative '../../config/constants'
+require_relative '../../constants/mappings'
+require_relative '../../constants/regexps'
 require_relative 'models/match'
 require_relative 'models/player'
 
