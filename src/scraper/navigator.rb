@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 
 module Scraper
 	class Navigator
-		attr_reader(:driver)
+		attr_reader :driver
 
 		def initialize(driver_type)
 			@driver = initialize_driver(driver_type)

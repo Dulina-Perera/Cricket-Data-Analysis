@@ -113,8 +113,19 @@ module Scraper
 		end
 	end
 
-	class SquadsExtractor < Extractor
-		def extract(url)
+	class PlayersExtractor < Extractor
+		def extract(details_url, stats_url)
+			squads = extract_squads(details_url)
+
+			players = extract_player_details(details_url, squads)
+			extract_player_stats(stats_url, players)
+
+			players.values
+		end
+
+		private
+
+		def extract_squads(url)
 			@driver.navigate.to(url)
 
 			squads = []
@@ -125,7 +136,11 @@ module Scraper
 				end
 			end
 
-			players = []
+			squads
+		end
+
+		def extract_player_details(url, squads)
+			players = {}
 			squads.each do |squad|
 				team = squad.match(SQUAD_PATTERN)[1]
 				wait = Selenium::WebDriver::Wait.new(timeout: 10)
@@ -146,22 +161,74 @@ module Scraper
 
 				players_to_add = extract_names_and_statuses
 
-				players_to_add.each do |player|
-					player.team = team
-				end
-
 				extract_roles(players_to_add)
 				extract_ages(players_to_add)
 
 				extract_batting_and_bowling_styles(players_to_add)
 
-				players += players_to_add
+				players_to_add.each do |player|
+					player.team = team
+					players[player.name] = player
+				end
 			end
 
-			players
+			players.freeze
 		end
 
-		private
+		def extract_player_stats(url, players)
+			@driver.navigate.to(url)
+
+			wait = Selenium::WebDriver::Wait.new(timeout: 10)
+
+			temps = @driver.find_elements(css: '.ds-flex.ds-flex-col')
+			temps.each do |temp|
+				if temp.text.include?('Most runs')
+					temp.find_elements(tag_name: 'a').each do |link|
+						if link.text == 'Most runs'
+							@driver.execute_script("arguments[0].scrollIntoView(true);", link)
+							wait.until { link.displayed? && link.enabled? }
+
+							begin
+								link.click
+							rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+								@driver.execute_script("arguments[0].click();", link)
+							end
+
+							wait.until { @driver.find_element(css: '.ds-text-title-s.ds-font-bold.ds-mb-2.ds-pl-4.ds-capitalize') }
+
+							tables = @driver.find_elements(tag_name: 'tbody')
+							tables.each do |table|
+								if table.find_elements(css: '.ds-bg-ui-fill-translucent', tag_name: 'tr').any?
+									stats = table.find_elements(tag_name: 'tr')
+									stats.each do |player_stats|
+										if player_stats.text =~ BATTING_STATS_PATTERN
+											if PLAYER_NAMES.include?($1)
+												players[PLAYER_NAMES[$1]].matches_played = $2
+												players[PLAYER_NAMES[$1]].innings_batted = $3
+												players[PLAYER_NAMES[$1]].notouts = $4 == '-' ? nil : $4
+												players[PLAYER_NAMES[$1]].runs_scored = $5
+												players[PLAYER_NAMES[$1]].highest_score = $6
+												players[PLAYER_NAMES[$1]].batting_average = $7
+												players[PLAYER_NAMES[$1]].balls_faced = $8
+												players[PLAYER_NAMES[$1]].batting_strike_rate = $9
+												players[PLAYER_NAMES[$1]].hundreds = $10 == '-' ? nil : $10
+												players[PLAYER_NAMES[$1]].fifties = $11 == '-' ? nil : $11
+												players[PLAYER_NAMES[$1]].ducks = $12 == '-' ? nil : $12
+												players[PLAYER_NAMES[$1]].fours = $13
+												players[PLAYER_NAMES[$1]].sixes = $14
+											end
+										end
+									end
+									break
+								end
+							end
+							break
+						end
+					end
+					break
+				end
+			end
+		end
 
 		def extract_names_and_statuses
 			players = []
@@ -247,6 +314,41 @@ module Scraper
 					end
 
 					j += 1
+				end
+			end
+		end
+	end
+
+	class RecordsExtractor < Extractor
+		def extract(url)
+			@driver.navigate.to(url)
+
+			wait = Selenium::WebDriver::Wait.new(timeout: 10)
+
+			temps = @driver.find_elements(css: '.ds-flex.ds-flex-col')
+			temps.each do |temp|
+				if temp.text.include?('Most runs')
+					temp.find_elements(tag_name: 'a').each do |link|
+						if link.text == 'Most runs'
+							@driver.execute_script("arguments[0].scrollIntoView(true);", link)
+							wait.until { link.displayed? && link.enabled? }
+
+							begin
+								link.click
+							rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+								@driver.execute_script("arguments[0].click();", link)
+							end
+
+							wait.until { @driver.find_element(css: '.ds-text-title-s.ds-font-bold.ds-mb-2.ds-pl-4.ds-capitalize') }
+
+							players = @driver.find_elements(css: '.ds-bg-ui-fill-translucent')
+							players.each do |player|
+								puts player.text, "\n"
+							end
+							break
+						end
+					end
+					break
 				end
 			end
 		end

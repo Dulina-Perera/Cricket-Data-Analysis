@@ -2,9 +2,55 @@
 
 module Scraper
 	class Player
-		attr_accessor(:name, :team, :role, :has_withdrawn, :is_captain, :is_vicecaptain, :age, :batting_style, :bowling_style)
+		attr_accessor(
+			:name,
+			:team,
+			:role,
+			:has_withdrawn,
+			:is_captain,
+			:is_vicecaptain,
+			:age,
+			:batting_style,
+			:bowling_style,
+			:matches_played,
+			:innings_batted,
+			:notouts,
+			:runs_scored,
+			:highest_score,
+			:batting_average,
+			:balls_faced,
+			:batting_strike_rate,
+			:hundreds,
+			:fifties,
+			:ducks,
+			:fours,
+			:sixes
+		)
 
-		def initialize(name, team, role, has_withdrawn, is_captain, is_vicecaptain, age, batting_style, bowling_style)
+		def initialize(
+			name,
+			team,
+			role,
+			has_withdrawn,
+			is_captain,
+			is_vicecaptain,
+			age,
+			batting_style,
+			bowling_style,
+			matches_played,
+			innings_batted,
+			notouts,
+			runs_scored,
+			highest_score,
+			batting_average,
+			balls_faced,
+			batting_strike_rate,
+			hundreds,
+			fifties,
+			ducks,
+			fours,
+			sixes
+		)
 			@name = name
 			@team = team
 			@role = role
@@ -14,6 +60,19 @@ module Scraper
 			@age = age
 			@batting_style = batting_style
 			@bowling_style = bowling_style
+			@matches_played = matches_played
+			@innings_batted = innings_batted
+			@notouts = notouts
+			@runs_scored = runs_scored
+			@highest_score = highest_score
+			@batting_average = batting_average
+			@balls_faced = balls_faced
+			@batting_strike_rate = batting_strike_rate
+			@hundreds = hundreds
+			@fifties = fifties
+			@ducks = ducks
+			@fours = fours
+			@sixes = sixes
 		end
 
 		def to_h
@@ -26,7 +85,20 @@ module Scraper
 				'Is_ViceCaptain' => @is_vicecaptain,
 				'Age' => @age,
 				'Batting_Style' => @batting_style,
-				'Bowling_Style' => @bowling_style
+				'Bowling_Style' => @bowling_style,
+				'Matches_Played' => @matches_played,
+				'Innings_Batted' => @innings_batted,
+				'Notouts' => @notouts,
+				'Runs_Scored' => @runs_scored,
+				'Highest_Score' => @highest_score,
+				'Batting_Average' => @batting_average,
+				'Balls_Faced' => @balls_faced,
+				'Batting_Strike_Rate' => @batting_strike_rate,
+				'Hundreds' => @hundreds,
+				'Fifties' => @fifties,
+				'Ducks' => @ducks,
+				'Fours' => @fours,
+				'Sixes' => @sixes
 			}
 		end
 	end
@@ -42,6 +114,19 @@ module Scraper
 			@age = nil
 			@batting_style = nil
 			@bowling_style = nil
+			@matches_played = nil
+			@innings_batted = nil
+			@notouts = nil
+			@runs_scored = nil
+			@highest_score = nil
+			@batting_average = nil
+			@balls_faced = nil
+			@batting_strike_rate = nil
+			@hundreds = nil
+			@fifties = nil
+			@ducks = nil
+			@fours = nil
+			@sixes = nil
 		end
 
 		def name(name)
@@ -89,8 +174,96 @@ module Scraper
 			self
 		end
 
+		def matches_played(matches_played)
+			@matches_played = matches_played
+			self
+		end
+
+		def innings_batted(innings_batted)
+			@innings_batted = innings_batted
+			self
+		end
+
+		def notouts(notouts)
+			@notouts = notouts
+			self
+		end
+
+		def runs_scored(runs_scored)
+			@runs_scored = runs_scored
+			self
+		end
+
+		def highest_score(highest_score)
+			@highest_score = highest_score
+			self
+		end
+
+		def batting_average(batting_average)
+			@batting_average = batting_average
+			self
+		end
+
+		def balls_faced(balls_faced)
+			@balls_faced = balls_faced
+			self
+		end
+
+		def batting_strike_rate(batting_strike_rate)
+			@batting_strike_rate = batting_strike_rate
+			self
+		end
+
+		def hundreds(hundreds)
+			@hundreds = hundreds
+			self
+		end
+
+		def fifties(fifties)
+			@fifties = fifties
+			self
+		end
+
+		def ducks(ducks)
+			@ducks = ducks
+			self
+		end
+
+		def fours(fours)
+			@fours = fours
+			self
+		end
+
+		def sixes(sixes)
+			@sixes = sixes
+			self
+		end
+
 		def build
-			Player.new(@name, @team, @role, @has_withdrawn, @is_captain, @is_vicecaptain, @age, @batting_style, @bowling_style)
+			Player.new(
+				@name,
+				@team,
+				@role,
+				@has_withdrawn,
+				@is_captain,
+				@is_vicecaptain,
+				@age,
+				@batting_style,
+				@bowling_style,
+				@matches_played,
+				@innings_batted,
+				@notouts,
+				@runs_scored,
+				@highest_score,
+				@batting_average,
+				@balls_faced,
+				@batting_strike_rate,
+				@hundreds,
+				@fifties,
+				@ducks,
+				@fours,
+				@sixes
+			)
 		end
 	end
 end

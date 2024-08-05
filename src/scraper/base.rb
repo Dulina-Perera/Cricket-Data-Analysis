@@ -6,6 +6,8 @@ require_relative 'extractor'
 
 module Scraper
 	class Scraper
+		attr_reader :players
+
 		def initialize
 			@navigator = Navigator.new(driver_type = :chrome)
 		end
@@ -23,13 +25,23 @@ module Scraper
 			puts "Fixtures and results saved to #{output_file}"
 		end
 
-		def scrape_squads(url, output_file)
-			extractor = SquadsExtractor.new(@navigator.driver)
+		def scrape_player_details_and_stats(
+			details_url,
+			stats_url,
+			output_file
+		)
+			extractor = PlayersExtractor.new(@navigator.driver)
 
-			squads = extractor.extract(url)
+			players = extractor.extract(details_url, stats_url)
 
-			save_squads_to_csv(squads, output_file)
-			puts "Squads saved to #{output_file}"
+			save_players_to_csv(players, output_file)
+			puts "Players saved to #{output_file}"
+		end
+
+		def scrape_records(url)
+			extractor = RecordsExtractor.new(@navigator.driver)
+
+			extractor.extract(url)
 		end
 
 		private
@@ -42,10 +54,10 @@ module Scraper
 			end
 		end
 
-		def save_squads_to_csv(squads, filename)
-			CSV.open(filename, 'w+', write_headers: true, headers: %w[Name Team Role Has_Withdrawn Is_Captain Is_ViceCaptain Age Batting_Style Bowling_Style]) do |csv|
-				squads.each do |squad|
-					csv << squad.to_h.values
+		def save_players_to_csv(players, filename)
+			CSV.open(filename, 'w+', write_headers: true, headers: %w[Name Team Role Has_Withdrawn Is_Captain Is_ViceCaptain Age Batting_Style Bowling_Style Matches_Played Innings_Batted Notouts Runs_Scored Highest_Score Batting_Average Balls_Faced Batting_Strike_Rate Hundreds Fifties Ducks Fours Sixes]) do |csv|
+				players.each do |player|
+					csv << player.to_h.values
 				end
 			end
 		end
