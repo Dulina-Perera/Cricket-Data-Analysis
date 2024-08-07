@@ -180,52 +180,61 @@ module Scraper
 
 			wait = Selenium::WebDriver::Wait.new(timeout: 10)
 
-			temps = @driver.find_elements(css: '.ds-flex.ds-flex-col')
+			squad_cnt = 0
+			temps = @driver.find_elements(css: '.ds-border-line.ds-border.ds-border-none')
 			temps.each do |temp|
-				if temp.text.include?('Most runs')
+				if temp.text.include?('Batting and bowling averages (by team)')
 					temp.find_elements(tag_name: 'a').each do |link|
-						if link.text == 'Most runs'
-							@driver.execute_script("arguments[0].scrollIntoView(true);", link)
-							wait.until { link.displayed? && link.enabled? }
-
-							begin
-								link.click
-							rescue Selenium::WebDriver::Error::ElementClickInterceptedError
-								@driver.execute_script("arguments[0].click();", link)
-							end
-
-							wait.until { @driver.find_element(css: '.ds-text-title-s.ds-font-bold.ds-mb-2.ds-pl-4.ds-capitalize') }
-
-							tables = @driver.find_elements(tag_name: 'tbody')
-							tables.each do |table|
-								if table.find_elements(css: '.ds-bg-ui-fill-translucent', tag_name: 'tr').any?
-									stats = table.find_elements(tag_name: 'tr')
-									stats.each do |player_stats|
-										if player_stats.text =~ BATTING_STATS_PATTERN
-											if PLAYER_NAMES.include?($1)
-												players[PLAYER_NAMES[$1]].matches_played = $2
-												players[PLAYER_NAMES[$1]].innings_batted = $3
-												players[PLAYER_NAMES[$1]].notouts = $4 == '-' ? nil : $4
-												players[PLAYER_NAMES[$1]].runs_scored = $5
-												players[PLAYER_NAMES[$1]].highest_score = $6
-												players[PLAYER_NAMES[$1]].batting_average = $7
-												players[PLAYER_NAMES[$1]].balls_faced = $8
-												players[PLAYER_NAMES[$1]].batting_strike_rate = $9
-												players[PLAYER_NAMES[$1]].hundreds = $10 == '-' ? nil : $10
-												players[PLAYER_NAMES[$1]].fifties = $11 == '-' ? nil : $11
-												players[PLAYER_NAMES[$1]].ducks = $12 == '-' ? nil : $12
-												players[PLAYER_NAMES[$1]].fours = $13
-												players[PLAYER_NAMES[$1]].sixes = $14
-											end
-										end
-									end
-									break
-								end
-							end
-							break
-						end
+						squad_cnt += 1
 					end
 					break
+				end
+			end
+
+			for i in 1..squad_cnt
+				@driver.navigate.to(url)
+
+				temps = @driver.find_elements(css: '.ds-border-line.ds-border.ds-border-none')
+				temps.each do |temp|
+					if temp.text.include?('Batting and bowling averages (by team)')
+						link = temp.find_elements(tag_name: 'a')[i - 1]
+
+						@driver.execute_script("arguments[0].scrollIntoView(true);", link)
+						wait.until { link.displayed? && link.enabled? }
+
+						begin
+							link.click
+						rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+							@driver.execute_script("arguments[0].click();", link)
+						end
+
+						wait.until { @driver.find_element(css: '.ds-text-title-s.ds-font-bold.ds-mb-2.ds-pl-4.ds-capitalize') }
+
+						tables = @driver.find_elements(tag_name: 'tbody')
+						if tables[0].find_elements(css: '.ds-bg-ui-fill-translucent', tag_name: 'tr').any?
+							stats = tables[0].find_elements(tag_name: 'tr')
+							stats.each do |player_stats|
+								if player_stats.text =~ BATTING_STATS_PATTERN
+									if PLAYER_NAMES.include?($1)
+										players[PLAYER_NAMES[$1]].matches_played = $2
+										players[PLAYER_NAMES[$1]].innings_batted = $3 == '-' ? nil : $3
+										players[PLAYER_NAMES[$1]].notouts = $4 == '-' ? nil : $4
+										players[PLAYER_NAMES[$1]].runs_scored = $5 == '-' ? nil : $5
+										players[PLAYER_NAMES[$1]].balls_faced = $6
+										players[PLAYER_NAMES[$1]].highest_score = $7 == '-' ? nil : $7
+										players[PLAYER_NAMES[$1]].batting_average = $8
+										players[PLAYER_NAMES[$1]].batting_strike_rate = $9
+										players[PLAYER_NAMES[$1]].hundreds = $10 == '-' ? nil : $10
+										players[PLAYER_NAMES[$1]].fifties = $11 == '-' ? nil : $11
+										players[PLAYER_NAMES[$1]].ducks = $12 == '-' ? nil : $12
+										players[PLAYER_NAMES[$1]].fours = $13
+										players[PLAYER_NAMES[$1]].sixes = $14
+									end
+								end
+							end
+						end
+						break
+					end
 				end
 			end
 		end

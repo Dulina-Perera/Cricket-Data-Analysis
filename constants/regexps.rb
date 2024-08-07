@@ -16,4 +16,5 @@ AGE_PATTERN = /^Age:\s(.*)$/
 BATTING_STYLE_PATTERN = /^Batting:\s(.*)$/
 BOWLING_STYLE_PATTERN = /^Bowling:\s(.*)$/
 
-BATTING_STATS_PATTERN = /^([a-zA-Z .'-]+?)\s*\([A-Z]+\)\s*2024-2024\s*(\d)\s*(\d)\s*([\d-])\s*(\d+)\s*([\d*]+)\s*([\d.]+)\s*(\d+)\s*([\d.]+)\s*([\d-]+)\s*([\d-]+)\s*([\d-]+)\s*(\d+)\s*(\d+)$/
+BATTING_STATS_PATTERN = /^([a-zA-Z .'-]+?)\s*(\d)\s*([\d-])\s*([\d-])\s*([\d-]+)\s*(\d+)\s*([\d*-]+)\s*([\d.]+)\s*([\d.]+)\s*([\d-]+)\s*([\d-]+)\s*([\d-]+)\s*(\d+)\s*(\d+)$/
+BOWLING_STATS_PATTERN = /^([a-zA-Z .'-]+?)\s*\([A-Z]+\)\s*2024-2024\s*(\d)\s*(\d)\s*(\d+)\s*([\d.]+)\s*([\d-])\s*(\d+)\s*(\d+)\s*(\d\/\d+)\s*([\d.]+)\s*([\d.]+)\s*([\d.]+)\s*([\d-])\s*([\d-])$/

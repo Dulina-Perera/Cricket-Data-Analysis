@@ -16,9 +16,9 @@ module Scraper
 			:innings_batted,
 			:notouts,
 			:runs_scored,
+			:balls_faced,
 			:highest_score,
 			:batting_average,
-			:balls_faced,
 			:batting_strike_rate,
 			:hundreds,
 			:fifties,
@@ -41,9 +41,9 @@ module Scraper
 			innings_batted,
 			notouts,
 			runs_scored,
+			balls_faced,
 			highest_score,
 			batting_average,
-			balls_faced,
 			batting_strike_rate,
 			hundreds,
 			fifties,
@@ -64,9 +64,9 @@ module Scraper
 			@innings_batted = innings_batted
 			@notouts = notouts
 			@runs_scored = runs_scored
+			@balls_faced = balls_faced
 			@highest_score = highest_score
 			@batting_average = batting_average
-			@balls_faced = balls_faced
 			@batting_strike_rate = batting_strike_rate
 			@hundreds = hundreds
 			@fifties = fifties
@@ -90,9 +90,9 @@ module Scraper
 				'Innings_Batted' => @innings_batted,
 				'Notouts' => @notouts,
 				'Runs_Scored' => @runs_scored,
+				'Balls_Faced' => @balls_faced,
 				'Highest_Score' => @highest_score,
 				'Batting_Average' => @batting_average,
-				'Balls_Faced' => @balls_faced,
 				'Batting_Strike_Rate' => @batting_strike_rate,
 				'Hundreds' => @hundreds,
 				'Fifties' => @fifties,
@@ -118,9 +118,9 @@ module Scraper
 			@innings_batted = nil
 			@notouts = nil
 			@runs_scored = nil
+			@balls_faced = nil
 			@highest_score = nil
 			@batting_average = nil
-			@balls_faced = nil
 			@batting_strike_rate = nil
 			@hundreds = nil
 			@fifties = nil
@@ -194,6 +194,11 @@ module Scraper
 			self
 		end
 
+		def balls_faced(balls_faced)
+			@balls_faced = balls_faced
+			self
+		end
+
 		def highest_score(highest_score)
 			@highest_score = highest_score
 			self
@@ -201,11 +206,6 @@ module Scraper
 
 		def batting_average(batting_average)
 			@batting_average = batting_average
-			self
-		end
-
-		def balls_faced(balls_faced)
-			@balls_faced = balls_faced
 			self
 		end
 
@@ -254,9 +254,9 @@ module Scraper
 				@innings_batted,
 				@notouts,
 				@runs_scored,
+				@balls_faced,
 				@highest_score,
 				@batting_average,
-				@balls_faced,
 				@batting_strike_rate,
 				@hundreds,
 				@fifties,

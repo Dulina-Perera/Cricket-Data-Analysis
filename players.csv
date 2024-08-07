@@ -1,309 +1,309 @@
-Name,Team,Role,Has_Withdrawn,Is_Captain,Is_ViceCaptain,Age,Batting_Style,Bowling_Style,Matches_Played,Innings_Batted,Notouts,Runs_Scored,Highest_Score,Batting_Average,Balls_Faced,Batting_Strike_Rate,Hundreds,Fifties,Ducks,Fours,Sixes
-Rahmanullah Gurbaz,Afghanistan,Wicketkeeper Batter,false,false,true,22y 155d,Right hand Bat,,8,8,,281,80,35.12,226,124.33,,3,2,18,16
-Hazratullah Zazai,Afghanistan,Opening Batter,false,false,false,26y 39d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Ibrahim Zadran,Afghanistan,Opening Batter,false,false,false,22y 141d,Right hand Bat,Right arm Medium fast,8,8,,231,70,28.87,215,107.44,,2,1,25,4
+Name,Team,Role,Has_Withdrawn,Is_Captain,Is_ViceCaptain,Age,Batting_Style,Bowling_Style,Matches_Played,Innings_Batted,Notouts,Runs_Scored,Balls_Faced,Highest_Score,Batting_Average,Batting_Strike_Rate,Hundreds,Fifties,Ducks,Fours,Sixes
+Rahmanullah Gurbaz,Afghanistan,Wicketkeeper Batter,false,false,true,22y 155d,Right hand Bat,,8,8,,281,226,80,35.12,124.33,,3,2,18,16
+Hazratullah Zazai,Afghanistan,Opening Batter,false,false,false,26y 39d,Left hand Bat,Slow Left arm Orthodox,1,1,,2,4,2,2.00,50.00,,,,0,0
+Ibrahim Zadran,Afghanistan,Opening Batter,false,false,false,22y 141d,Right hand Bat,Right arm Medium fast,8,8,,231,215,70,28.87,107.44,,2,1,25,4
 Mohammad Ishaq,Afghanistan,Wicketkeeper Batter,false,false,false,19y 90d,Right hand Bat,,,,,,,,,,,,,,
-Najibullah Zadran,Afghanistan,Middle order Batter,false,false,false,31y 73d,Left hand Bat,Right arm Offbreak,5,4,1,22,19,7.33,23,95.65,,,1,0,2
-Rashid Khan,Afghanistan,Bowling Allrounder,false,true,false,25y 224d,Right hand Bat,Legbreak Googly,8,7,2,57,19*,11.40,46,123.91,,,,5,4
-Azmatullah Omarzai,Afghanistan,Allrounder,false,false,false,24y 38d,Right hand Bat,Right arm Medium fast,8,8,,111,26,13.87,102,108.82,,,,7,4
-Gulbadin Naib,Afghanistan,Batting Allrounder,false,false,false,32y 332d,Right hand Bat,Right arm Medium fast,8,8,1,90,49*,12.85,86,104.65,,,2,9,3
-Karim Janat,Afghanistan,Bowling Allrounder,false,false,false,25y 264d,Right hand Bat,Right arm Medium,7,5,2,43,14,14.33,38,113.15,,,,2,2
-Mohammad Nabi,Afghanistan,Allrounder,false,false,false,39y 121d,Right hand Bat,Right arm Offbreak,8,8,3,56,16*,11.20,70,80.00,,,2,3,1
-Nangeyalia Kharote,Afghanistan,Allrounder,false,false,false,20y 6d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
+Najibullah Zadran,Afghanistan,Middle order Batter,false,false,false,31y 73d,Left hand Bat,Right arm Offbreak,5,4,1,22,23,19,7.33,95.65,,,1,0,2
+Rashid Khan,Afghanistan,Bowling Allrounder,false,true,false,25y 224d,Right hand Bat,Legbreak Googly,8,7,2,57,46,19*,11.40,123.91,,,,5,4
+Azmatullah Omarzai,Afghanistan,Allrounder,false,false,false,24y 38d,Right hand Bat,Right arm Medium fast,8,8,,111,102,26,13.87,108.82,,,,7,4
+Gulbadin Naib,Afghanistan,Batting Allrounder,false,false,false,32y 332d,Right hand Bat,Right arm Medium fast,8,8,1,90,86,49*,12.85,104.65,,,2,9,3
+Karim Janat,Afghanistan,Bowling Allrounder,false,false,false,25y 264d,Right hand Bat,Right arm Medium,7,5,2,43,38,14,14.33,113.15,,,,2,2
+Mohammad Nabi,Afghanistan,Allrounder,false,false,false,39y 121d,Right hand Bat,Right arm Offbreak,8,8,3,56,70,16*,11.20,80.00,,,2,3,1
+Nangeyalia Kharote,Afghanistan,Allrounder,false,false,false,20y 6d,Left hand Bat,Slow Left arm Orthodox,3,2,1,3,8,2,3.00,37.50,,,,0,0
 Fareed Ahmad,Afghanistan,Bowler,false,false,false,29y 265d,Left hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Fazalhaq Farooqi,Afghanistan,Bowler,false,false,false,23y 222d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Naveen-ul-Haq,Afghanistan,Bowler,false,false,false,24y 221d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Noor Ahmad,Afghanistan,Bowler,false,false,false,19y 119d,Right hand Bat,Left arm Wrist spin,,,,,,,,,,,,,
-Mujeeb Ur Rahman,Afghanistan,Bowler,true,false,false,23y 34d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Tim David,Australia,Middle order Batter,false,false,false,28y 46d,Right hand Bat,Right arm Offbreak,7,5,1,61,24*,15.25,41,148.78,,,,5,3
-Travis Head,Australia,Top order Batter,false,false,false,30y 124d,Left hand Bat,Right arm Offbreak,7,7,1,255,76,42.50,161,158.38,,2,1,26,15
+Fazalhaq Farooqi,Afghanistan,Bowler,false,false,false,23y 222d,Right hand Bat,Left arm Fast medium,8,3,3,6,5,4*,0.00,120.00,,,,1,0
+Naveen-ul-Haq,Afghanistan,Bowler,false,false,false,24y 221d,Right hand Bat,Right arm Medium fast,8,3,,6,15,4,2.00,40.00,,,1,1,0
+Noor Ahmad,Afghanistan,Bowler,false,false,false,19y 119d,Right hand Bat,Left arm Wrist spin,7,3,,14,24,12,4.66,58.33,,,1,1,1
+Mujeeb Ur Rahman,Afghanistan,Bowler,true,false,false,23y 34d,Right hand Bat,Right arm Offbreak,1,,,,0,,0.00,0.00,,,,0,0
+Tim David,Australia,Middle order Batter,false,false,false,28y 46d,Right hand Bat,Right arm Offbreak,7,5,1,61,41,24*,15.25,148.78,,,,5,3
+Travis Head,Australia,Top order Batter,false,false,false,30y 124d,Left hand Bat,Right arm Offbreak,7,7,1,255,161,76,42.50,158.38,,2,1,26,15
 Josh Inglis,Australia,Wicketkeeper Batter,false,false,false,29y 58d,Right hand Bat,,,,,,,,,,,,,,
-Matthew Wade,Australia,Wicketkeeper Batter,false,false,false,36y 127d,Left hand Bat,Right arm Medium,7,4,2,27,17*,13.50,24,112.50,,,,3,0
-David Warner,Australia,Opening Batter,false,false,false,37y 187d,Left hand Bat,Legbreak,7,7,1,178,56,29.66,128,139.06,,2,,17,9
-Mitchell Marsh,Australia,Allrounder,false,true,false,32y 194d,Right hand Bat,Right arm Medium,7,7,1,125,37,20.83,107,116.82,,,,13,5
+Matthew Wade,Australia,Wicketkeeper Batter,false,false,false,36y 127d,Left hand Bat,Right arm Medium,7,4,2,27,24,17*,13.50,112.50,,,,3,0
+David Warner,Australia,Opening Batter,false,false,false,37y 187d,Left hand Bat,Legbreak,7,7,1,178,128,56,29.66,139.06,,2,,17,9
+Mitchell Marsh,Australia,Allrounder,false,true,false,32y 194d,Right hand Bat,Right arm Medium,7,7,1,125,107,37,20.83,116.82,,,,13,5
 Cameron Green,Australia,Batting Allrounder,false,false,false,24y 333d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Glenn Maxwell,Australia,Batting Allrounder,false,false,false,35y 200d,Right hand Bat,Right arm Offbreak,7,6,1,132,59,26.40,93,141.93,,1,1,12,7
-Marcus Stoinis,Australia,Batting Allrounder,false,false,false,34y 259d,Right hand Bat,Right arm Medium,7,5,1,169,67*,42.25,103,164.07,,2,,14,10
-Ashton Agar,Australia,Bowler,false,false,false,30y 200d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Pat Cummins,Australia,Bowler,false,false,false,30y 359d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Nathan Ellis,Australia,Bowler,false,false,false,29y 222d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Josh Hazlewood,Australia,Bowler,false,false,false,33y 114d,Left hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Mitchell Starc,Australia,Bowler,false,false,false,34y 92d,Left hand Bat,Left arm Fast,,,,,,,,,,,,,
-Adam Zampa,Australia,Bowler,false,false,false,32y 31d,Right hand Bat,Legbreak Googly,,,,,,,,,,,,,
-Najmul Hossain Shanto,Bangladesh,Top order Batter,false,true,false,25y 263d,Left hand Bat,Right arm Offbreak,7,7,,112,41,16.00,117,95.72,,,,7,5
-Jaker Ali,Bangladesh,Batter,false,false,false,26y 82d,Right hand Bat,,4,4,1,35,14*,11.66,46,76.08,,,,3,0
-Litton Das,Bangladesh,Wicketkeeper Batter,false,false,false,29y 214d,Right hand Bat,Right arm Offbreak,7,7,1,139,54*,23.16,149,93.28,,1,,12,3
-Tanzid Hasan,Bangladesh,Opening Batter,false,false,false,23y 165d,Left hand Bat,,7,7,,76,35,10.85,79,96.20,,,3,11,1
-Towhid Hridoy,Bangladesh,Top order Batter,false,false,false,23y 162d,Right hand Bat,Right arm Offbreak,7,7,,153,40,21.85,119,128.57,,,,9,8
-Mahedi Hasan,Bangladesh,Allrounder,false,false,false,29y 154d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Mahmudullah,Bangladesh,Allrounder,false,false,false,38y 100d,Right hand Bat,Right arm Offbreak,7,7,1,95,25,15.83,101,94.05,,,,8,3
-Shakib Al Hasan,Bangladesh,Allrounder,false,false,false,37y 51d,Left hand Bat,Slow Left arm Orthodox,7,7,1,111,64*,18.50,104,106.73,,1,1,12,1
-Soumya Sarkar,Bangladesh,Batting Allrounder,false,false,false,31y 79d,Left hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Taskin Ahmed,Bangladesh,Bowler,false,false,true,29y 41d,Left hand Bat,Right arm Fast,6,5,3,28,13*,14.00,33,84.84,,,1,3,0
-Mustafizur Rahman,Bangladesh,Bowler,false,false,false,28y 251d,Left hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Rishad Hossain,Bangladesh,Bowler,false,false,false,21y 304d,Right hand Bat,Legbreak Googly,7,6,1,40,24,8.00,26,153.84,,,1,2,4
+Glenn Maxwell,Australia,Batting Allrounder,false,false,false,35y 200d,Right hand Bat,Right arm Offbreak,7,6,1,132,93,59,26.40,141.93,,1,1,12,7
+Marcus Stoinis,Australia,Batting Allrounder,false,false,false,34y 259d,Right hand Bat,Right arm Medium,7,5,1,169,103,67*,42.25,164.07,,2,,14,10
+Ashton Agar,Australia,Bowler,false,false,false,30y 200d,Left hand Bat,Slow Left arm Orthodox,2,1,,2,5,2,2.00,40.00,,,,0,0
+Pat Cummins,Australia,Bowler,false,false,false,30y 359d,Right hand Bat,Right arm Fast,5,3,1,14,17,11*,7.00,82.35,,,1,0,1
+Nathan Ellis,Australia,Bowler,false,false,false,29y 222d,Right hand Bat,Right arm Fast medium,3,,,,0,,0.00,0.00,,,,0,0
+Josh Hazlewood,Australia,Bowler,false,false,false,33y 114d,Left hand Bat,Right arm Fast medium,6,1,1,5,7,5*,0.00,71.42,,,,0,0
+Mitchell Starc,Australia,Bowler,false,false,false,34y 92d,Left hand Bat,Left arm Fast,5,2,2,4,7,4*,0.00,57.14,,,,0,0
+Adam Zampa,Australia,Bowler,false,false,false,32y 31d,Right hand Bat,Legbreak Googly,7,1,,9,7,9,9.00,128.57,,,,1,0
+Najmul Hossain Shanto,Bangladesh,Top order Batter,false,true,false,25y 263d,Left hand Bat,Right arm Offbreak,7,7,,112,117,41,16.00,95.72,,,,7,5
+Jaker Ali,Bangladesh,Batter,false,false,false,26y 82d,Right hand Bat,,4,4,1,35,46,14*,11.66,76.08,,,,3,0
+Litton Das,Bangladesh,Wicketkeeper Batter,false,false,false,29y 214d,Right hand Bat,Right arm Offbreak,7,7,1,139,149,54*,23.16,93.28,,1,,12,3
+Tanzid Hasan,Bangladesh,Opening Batter,false,false,false,23y 165d,Left hand Bat,,7,7,,76,79,35,10.85,96.20,,,3,11,1
+Towhid Hridoy,Bangladesh,Top order Batter,false,false,false,23y 162d,Right hand Bat,Right arm Offbreak,7,7,,153,119,40,21.85,128.57,,,,9,8
+Mahedi Hasan,Bangladesh,Allrounder,false,false,false,29y 154d,Right hand Bat,Right arm Offbreak,2,2,1,5,5,5*,5.00,100.00,,,1,1,0
+Mahmudullah,Bangladesh,Allrounder,false,false,false,38y 100d,Right hand Bat,Right arm Offbreak,7,7,1,95,101,25,15.83,94.05,,,,8,3
+Shakib Al Hasan,Bangladesh,Allrounder,false,false,false,37y 51d,Left hand Bat,Slow Left arm Orthodox,7,7,1,111,104,64*,18.50,106.73,,1,1,12,1
+Soumya Sarkar,Bangladesh,Batting Allrounder,false,false,false,31y 79d,Left hand Bat,Right arm Medium fast,2,2,,10,12,10,5.00,83.33,,,1,1,0
+Taskin Ahmed,Bangladesh,Bowler,false,false,true,29y 41d,Left hand Bat,Right arm Fast,6,5,3,28,33,13*,14.00,84.84,,,1,3,0
+Mustafizur Rahman,Bangladesh,Bowler,false,false,false,28y 251d,Left hand Bat,Left arm Fast medium,7,2,,3,5,3,1.50,60.00,,,1,0,0
+Rishad Hossain,Bangladesh,Bowler,false,false,false,21y 304d,Right hand Bat,Legbreak Googly,7,6,1,40,26,24,8.00,153.84,,,1,2,4
 Shoriful Islam,Bangladesh,Bowler,false,false,false,22y 346d,Left hand Bat,Left arm Medium fast,,,,,,,,,,,,,
 Tanvir Islam,Bangladesh,Bowler,false,false,false,27y 202d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Tanzim Hasan Sakib,Bangladesh,Bowler,false,false,false,21y 207d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Navneet Dhaliwal,Canada,Middle order Batter,false,false,false,35y 205d,Right hand Bat,Right arm Medium fast,3,3,,71,61,23.66,61,116.39,,1,,8,3
-Aaron Johnson,Canada,Batter,false,false,false,33y 47d,Right hand Bat,Right arm Offbreak,3,3,,89,52,29.66,73,121.91,,1,,12,4
-Shreyas Movva,Canada,Wicketkeeper Batter,false,false,false,30y 241d,Right hand Bat,,3,3,1,71,37,35.50,61,116.39,,,,5,2
-Ravinderpal Singh,Canada,Batter,false,false,false,35y 201d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Saad Bin Zafar,Canada,Allrounder,false,true,false,37y 174d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Dilpreet Bajwa,Canada,Allrounder,false,false,false,21y 97d,Right hand Bat,Right arm Offbreak,2,2,,18,11,9.00,14,128.57,,,,2,1
-Junaid Siddiqui,Canada,Allrounder,false,false,false,39y 38d,Right hand Bat,Legbreak,,,,,,,,,,,,,
-Nicholas Kirton,Canada,Batting Allrounder,false,false,false,25y 362d,Left hand Bat,,3,3,,101,51,33.66,72,140.27,,1,,6,4
-Pargat Singh,Canada,Allrounder,false,false,false,32y 19d,Right hand Bat,Right arm Offbreak,3,3,,25,18,8.33,27,92.59,,,,2,0
+Tanzim Hasan Sakib,Bangladesh,Bowler,false,false,false,21y 207d,Right hand Bat,Right arm Fast medium,7,5,3,12,23,4*,6.00,52.17,,,,0,0
+Navneet Dhaliwal,Canada,Middle order Batter,false,false,false,35y 205d,Right hand Bat,Right arm Medium fast,3,3,,71,61,61,23.66,116.39,,1,,8,3
+Aaron Johnson,Canada,Batter,false,false,false,33y 47d,Right hand Bat,Right arm Offbreak,3,3,,89,73,52,29.66,121.91,,1,,12,4
+Shreyas Movva,Canada,Wicketkeeper Batter,false,false,false,30y 241d,Right hand Bat,,3,3,1,71,61,37,35.50,116.39,,,,5,2
+Ravinderpal Singh,Canada,Batter,false,false,false,35y 201d,Right hand Bat,Right arm Offbreak,1,1,,,2,,0.00,0.00,,,1,0,0
+Saad Bin Zafar,Canada,Allrounder,false,true,false,37y 174d,Left hand Bat,Slow Left arm Orthodox,3,2,1,11,22,10,11.00,50.00,,,,1,0
+Dilpreet Bajwa,Canada,Allrounder,false,false,false,21y 97d,Right hand Bat,Right arm Offbreak,2,2,,18,14,11,9.00,128.57,,,,2,1
+Junaid Siddiqui,Canada,Allrounder,false,false,false,39y 38d,Right hand Bat,Legbreak,2,,,,0,,0.00,0.00,,,,0,0
+Nicholas Kirton,Canada,Batting Allrounder,false,false,false,25y 362d,Left hand Bat,,3,3,,101,72,51,33.66,140.27,,1,,6,4
+Pargat Singh,Canada,Allrounder,false,false,false,32y 19d,Right hand Bat,Right arm Offbreak,3,3,,25,27,18,8.33,92.59,,,,2,0
 Rayyan Pathan,Canada,Batting Allrounder,false,false,false,32y 148d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
 Harsh Thaker,Canada,Allrounder,true,false,false,26y 191d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Nikhil Dutta,Canada,Bowler,false,false,false,29y 202d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Jeremy Gordon,Canada,Bowler,false,false,false,37y 103d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Dilon Heyliger,Canada,Bowler,false,false,false,34y 194d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
+Nikhil Dutta,Canada,Bowler,false,false,false,29y 202d,Right hand Bat,Right arm Offbreak,1,,,,0,,0.00,0.00,,,,0,0
+Jeremy Gordon,Canada,Bowler,false,false,false,37y 103d,Right hand Bat,Right arm Fast medium,3,,,,0,,0.00,0.00,,,,0,0
+Dilon Heyliger,Canada,Bowler,false,false,false,34y 194d,Right hand Bat,Right arm Medium,3,3,2,10,14,9*,10.00,71.42,,,1,1,0
 Rishiv Joshi,Canada,Bowler,false,false,false,23y 180d,Right hand Bat,Left arm Medium fast,,,,,,,,,,,,,
-Kaleem Sana,Canada,Bowler,false,false,false,30y 122d,Right hand Bat,Left arm Medium fast,,,,,,,,,,,,,
+Kaleem Sana,Canada,Bowler,false,false,false,30y 122d,Right hand Bat,Left arm Medium fast,3,1,1,13,14,13*,0.00,92.85,,,,0,1
 Jos Buttler,England,Wicketkeeper Batter,false,true,false,33y 235d,Right hand Bat,,,,,,,,,,,,,,
-Jonny Bairstow,England,Wicketkeeper Batter,false,false,false,34y 217d,Right hand Bat,Right arm Medium,8,6,2,110,48*,27.50,82,134.14,,,1,11,4
-Harry Brook,England,Batter,false,false,false,25y 68d,Right hand Bat,Right arm Medium,8,4,2,145,53,72.50,92,157.60,,1,,16,2
+Jonny Bairstow,England,Wicketkeeper Batter,false,false,false,34y 217d,Right hand Bat,Right arm Medium,8,6,2,110,82,48*,27.50,134.14,,,1,11,4
+Harry Brook,England,Batter,false,false,false,25y 68d,Right hand Bat,Right arm Medium,8,4,2,145,92,53,72.50,157.60,,1,,16,2
 Ben Duckett,England,Top order Batter,false,false,false,29y 196d,Left hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Phil Salt,England,Wicketkeeper Batter,false,false,false,27y 246d,Right hand Bat,Right arm Offbreak,8,7,2,188,87*,37.60,118,159.32,,1,,16,10
-Moeen Ali,England,Batting Allrounder,false,false,false,36y 317d,Left hand Bat,Right arm Offbreak,8,5,,71,25,14.20,51,139.21,,,,2,5
-Sam Curran,England,Allrounder,false,false,false,25y 332d,Left hand Bat,Left arm Medium fast,,,,,,,,,,,,,
-Will Jacks,England,Batting Allrounder,false,false,false,25y 161d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Liam Livingstone,England,Batting Allrounder,false,false,false,30y 270d,Right hand Bat,"Right arm Offbreak, Legbreak",8,4,,72,33,18.00,49,146.93,,,,3,5
-Jofra Archer,England,Bowler,false,false,false,29y 29d,Right hand Bat,Right arm Fast,8,2,1,22,21,22.00,17,129.41,,,,1,2
+Phil Salt,England,Wicketkeeper Batter,false,false,false,27y 246d,Right hand Bat,Right arm Offbreak,8,7,2,188,118,87*,37.60,159.32,,1,,16,10
+Moeen Ali,England,Batting Allrounder,false,false,false,36y 317d,Left hand Bat,Right arm Offbreak,8,5,,71,51,25,14.20,139.21,,,,2,5
+Sam Curran,England,Allrounder,false,false,false,25y 332d,Left hand Bat,Left arm Medium fast,5,2,1,12,11,10*,12.00,109.09,,,,1,0
+Will Jacks,England,Batting Allrounder,false,false,false,25y 161d,Right hand Bat,Right arm Offbreak,3,2,,15,17,10,7.50,88.23,,,,2,0
+Liam Livingstone,England,Batting Allrounder,false,false,false,30y 270d,Right hand Bat,"Right arm Offbreak, Legbreak",8,4,,72,49,33,18.00,146.93,,,,3,5
+Jofra Archer,England,Bowler,false,false,false,29y 29d,Right hand Bat,Right arm Fast,8,2,1,22,17,21,22.00,129.41,,,,1,2
 Tom Hartley,England,Bowler,false,false,false,24y 363d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Chris Jordan,England,Bowler,false,false,false,35y 209d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Adil Rashid,England,Bowler,false,false,false,36y 73d,Right hand Bat,Legbreak,,,,,,,,,,,,,
-Reece Topley,England,Bowler,false,false,false,30y 69d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Mark Wood,England,Bowler,false,false,false,34y 110d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Rohit Sharma,India,Top order Batter,false,true,false,37y,Right hand Bat,Right arm Offbreak,8,8,1,257,92,36.71,164,156.70,,3,,24,15
+Chris Jordan,England,Bowler,false,false,false,35y 209d,Right hand Bat,Right arm Fast medium,5,2,1,2,8,1*,2.00,25.00,,,,0,0
+Adil Rashid,England,Bowler,false,false,false,36y 73d,Right hand Bat,Legbreak,8,1,,2,2,2,2.00,100.00,,,,0,0
+Reece Topley,England,Bowler,false,false,false,30y 69d,Right hand Bat,Left arm Fast medium,6,1,1,3,3,3*,0.00,100.00,,,,0,0
+Mark Wood,England,Bowler,false,false,false,34y 110d,Right hand Bat,Right arm Fast,5,,,,0,,0.00,0.00,,,,0,0
+Rohit Sharma,India,Top order Batter,false,true,false,37y,Right hand Bat,Right arm Offbreak,8,8,1,257,164,92,36.71,156.70,,3,,24,15
 Yashasvi Jaiswal,India,Opening Batter,false,false,false,22y 124d,Left hand Bat,Legbreak,,,,,,,,,,,,,
-Virat Kohli,India,Top order Batter,false,false,false,35y 177d,Right hand Bat,Right arm Medium,8,8,,151,76,18.87,134,112.68,,1,2,8,7
-Rishabh Pant,India,Wicketkeeper Batter,false,false,false,26y 209d,Left hand Bat,,8,8,1,171,42,24.42,134,127.61,,,1,19,6
+Virat Kohli,India,Top order Batter,false,false,false,35y 177d,Right hand Bat,Right arm Medium,8,8,,151,134,76,18.87,112.68,,1,2,8,7
+Rishabh Pant,India,Wicketkeeper Batter,false,false,false,26y 209d,Left hand Bat,,8,8,1,171,134,42,24.42,127.61,,,1,19,6
 Sanju Samson,India,Wicketkeeper Batter,false,false,false,29y 171d,Right hand Bat,,,,,,,,,,,,,,
-Suryakumar Yadav,India,Batter,false,false,false,33y 229d,Right hand Bat,"Right arm Medium, Right arm Offbreak",8,8,1,199,53,28.42,147,135.37,,2,,15,10
-Hardik Pandya,India,Allrounder,false,false,true,30y 202d,Right hand Bat,Right arm Medium fast,8,6,3,144,50*,48.00,95,151.57,,1,,11,9
-Shivam Dube,India,Allrounder,false,false,false,30y 309d,Left hand Bat,Right arm Medium,8,8,2,133,34,22.16,116,114.65,,,1,6,7
-Ravindra Jadeja,India,Allrounder,false,false,false,35y 146d,Left hand Bat,Slow Left arm Orthodox,8,5,2,35,17*,11.66,22,159.09,,,1,3,1
-Axar Patel,India,Allrounder,false,false,false,30y 101d,Left hand Bat,Slow Left arm Orthodox,8,5,1,92,47,23.00,66,139.39,,,,5,6
-Arshdeep Singh,India,Bowler,false,false,false,25y 85d,Left hand Bat,Left arm Medium fast,,,,,,,,,,,,,
-Jasprit Bumrah,India,Bowler,false,false,false,30y 146d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
+Suryakumar Yadav,India,Batter,false,false,false,33y 229d,Right hand Bat,"Right arm Medium, Right arm Offbreak",8,8,1,199,147,53,28.42,135.37,,2,,15,10
+Hardik Pandya,India,Allrounder,false,false,true,30y 202d,Right hand Bat,Right arm Medium fast,8,6,3,144,95,50*,48.00,151.57,,1,,11,9
+Shivam Dube,India,Allrounder,false,false,false,30y 309d,Left hand Bat,Right arm Medium,8,8,2,133,116,34,22.16,114.65,,,1,6,7
+Ravindra Jadeja,India,Allrounder,false,false,false,35y 146d,Left hand Bat,Slow Left arm Orthodox,8,5,2,35,22,17*,11.66,159.09,,,1,3,1
+Axar Patel,India,Allrounder,false,false,false,30y 101d,Left hand Bat,Slow Left arm Orthodox,8,5,1,92,66,47,23.00,139.39,,,,5,6
+Arshdeep Singh,India,Bowler,false,false,false,25y 85d,Left hand Bat,Left arm Medium fast,8,3,2,12,16,9,12.00,75.00,,,,1,0
+Jasprit Bumrah,India,Bowler,false,false,false,30y 146d,Right hand Bat,Right arm Fast,8,1,,,1,,0.00,0.00,,,1,0,0
 Yuzvendra Chahal,India,Bowler,false,false,false,33y 282d,Right hand Bat,Legbreak Googly,,,,,,,,,,,,,
-Kuldeep Yadav,India,Bowler,false,false,false,29y 138d,Left hand Bat,Left arm Wrist spin,,,,,,,,,,,,,
-Mohammed Siraj,India,Bowler,false,false,false,30y 48d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
+Kuldeep Yadav,India,Bowler,false,false,false,29y 138d,Left hand Bat,Left arm Wrist spin,5,,,,0,,0.00,0.00,,,,0,0
+Mohammed Siraj,India,Bowler,false,false,false,30y 48d,Right hand Bat,Right arm Fast,3,1,1,7,7,7*,0.00,100.00,,,,0,0
 Ross Adair,Ireland,Top order Batter,false,false,false,30y 16d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Andy Balbirnie,Ireland,Batter,false,false,false,33y 131d,Right hand Bat,Right arm Offbreak,3,3,,22,17,7.33,32,68.75,,,1,2,0
+Andy Balbirnie,Ireland,Batter,false,false,false,33y 131d,Right hand Bat,Right arm Offbreak,3,3,,22,32,17,7.33,68.75,,,1,2,0
 Neil Rock,Ireland,Wicketkeeper Batter,false,false,false,23y 226d,Left hand Bat,,,,,,,,,,,,,,
-Harry Tector,Ireland,Middle order Batter,false,false,false,24y 153d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Lorcan Tucker,Ireland,Wicketkeeper Batter,false,false,false,27y 240d,Right hand Bat,,3,3,,22,10,7.33,30,73.33,,,,2,0
-Paul Stirling,Ireland,Batting Allrounder,false,true,false,33y 247d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Mark Adair,Ireland,Bowling Allrounder,false,false,false,28y 41d,Right hand Bat,Right arm Fast medium,3,3,,52,34,17.33,45,115.55,,,,5,1
-Curtis Campher,Ireland,Allrounder,false,false,false,25y 17d,Right hand Bat,Right arm Medium fast,3,3,,23,12,7.66,29,79.31,,,,2,1
-Gareth Delany,Ireland,Batting Allrounder,false,false,false,27y 9d,Right hand Bat,Legbreak Googly,3,3,,60,31,20.00,40,150.00,,,,3,5
-George Dockrell,Ireland,Allrounder,false,false,false,31y 290d,Right hand Bat,Slow Left arm Orthodox,3,3,1,44,30*,22.00,38,115.78,,,,4,1
+Harry Tector,Ireland,Middle order Batter,false,false,false,24y 153d,Right hand Bat,Right arm Offbreak,3,3,,11,27,7,3.66,40.74,,,1,0,0
+Lorcan Tucker,Ireland,Wicketkeeper Batter,false,false,false,27y 240d,Right hand Bat,,3,3,,22,30,10,7.33,73.33,,,,2,0
+Paul Stirling,Ireland,Batting Allrounder,false,true,false,33y 247d,Right hand Bat,Right arm Offbreak,3,3,,12,25,9,4.00,48.00,,,,1,0
+Mark Adair,Ireland,Bowling Allrounder,false,false,false,28y 41d,Right hand Bat,Right arm Fast medium,3,3,,52,45,34,17.33,115.55,,,,5,1
+Curtis Campher,Ireland,Allrounder,false,false,false,25y 17d,Right hand Bat,Right arm Medium fast,3,3,,23,29,12,7.66,79.31,,,,2,1
+Gareth Delany,Ireland,Batting Allrounder,false,false,false,27y 9d,Right hand Bat,Legbreak Googly,3,3,,60,40,31,20.00,150.00,,,,3,5
+George Dockrell,Ireland,Allrounder,false,false,false,31y 290d,Right hand Bat,Slow Left arm Orthodox,3,3,1,44,38,30*,22.00,115.78,,,,4,1
 Graham Hume,Ireland,Bowler,false,false,false,33y 166d,Left hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Josh Little,Ireland,Bowler,false,false,false,24y 188d,Right hand Bat,Left arm Fast medium,3,2,1,36,22*,36.00,31,116.12,,,,4,1
-Barry McCarthy,Ireland,Bowler,false,false,false,31y 237d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Ben White,Ireland,Bowler,false,false,false,25y 252d,Right hand Bat,Legbreak,,,,,,,,,,,,,
-Craig Young,Ireland,Bowler,false,false,false,34y 33d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Nikolaas Davin,Namibia,Batter,false,false,false,26y 143d,Right hand Bat,Legbreak,4,4,,64,24,16.00,66,96.96,,,,7,2
-Zane Green,Namibia,Wicketkeeper Batter,false,false,false,27y 212d,Left hand Bat,,4,3,,29,28,9.66,33,87.87,,,1,1,1
-JP Kotze,Namibia,Batter,false,false,false,30y 17d,Left hand Bat,,,,,,,,,,,,,,
-Malan Kruger,Namibia,Batter,false,false,false,29y 28d,Right hand Bat,,,,,,,,,,,,,,
+Josh Little,Ireland,Bowler,false,false,false,24y 188d,Right hand Bat,Left arm Fast medium,3,2,1,36,31,22*,36.00,116.12,,,,4,1
+Barry McCarthy,Ireland,Bowler,false,false,false,31y 237d,Right hand Bat,Right arm Fast medium,3,3,1,4,16,2*,2.00,25.00,,,1,0,0
+Ben White,Ireland,Bowler,false,false,false,25y 252d,Right hand Bat,Legbreak,2,2,2,7,24,5*,0.00,29.16,,,,0,0
+Craig Young,Ireland,Bowler,false,false,false,34y 33d,Right hand Bat,Right arm Fast medium,1,,,,0,,0.00,0.00,,,,0,0
+Nikolaas Davin,Namibia,Batter,false,false,false,26y 143d,Right hand Bat,Legbreak,4,4,,64,66,24,16.00,96.96,,,,7,2
+Zane Green,Namibia,Wicketkeeper Batter,false,false,false,27y 212d,Left hand Bat,,4,3,,29,33,28,9.66,87.87,,,1,1,1
+JP Kotze,Namibia,Batter,false,false,false,30y 17d,Left hand Bat,,2,1,,,3,,0.00,0.00,,,1,0,0
+Malan Kruger,Namibia,Batter,false,false,false,29y 28d,Right hand Bat,,2,2,1,3,9,2,3.00,33.33,,,,0,0
 Dylan Leicher,Namibia,Middle order Batter,false,false,false,20y 7d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Gerhard Erasmus,Namibia,Allrounder,false,true,false,29y 29d,Right hand Bat,Right arm Offbreak,4,4,1,102,52,34.00,93,109.67,,1,,10,3
-JJ Smit,Namibia,Bowling Allrounder,false,false,true,28y 182d,Right hand Bat,Left arm Medium fast,4,4,1,22,11,7.33,30,73.33,,,,1,1
-Jan Frylinck,Namibia,Allrounder,false,false,false,30y 34d,Left hand Bat,Left arm Fast medium,4,3,,58,45,19.33,68,85.29,,,,8,0
-Michael van Lingen,Namibia,Bowling Allrounder,false,false,false,26y 199d,Left hand Bat,"Left arm Medium, Slow Left arm Orthodox",3,3,,43,33,14.33,41,104.87,,,1,3,3
-David Wiese,Namibia,Allrounder,false,false,false,38y 358d,Right hand Bat,Right arm Medium fast,4,4,1,51,27,17.00,40,127.50,,,,2,4
+Gerhard Erasmus,Namibia,Allrounder,false,true,false,29y 29d,Right hand Bat,Right arm Offbreak,4,4,1,102,93,52,34.00,109.67,,1,,10,3
+JJ Smit,Namibia,Bowling Allrounder,false,false,true,28y 182d,Right hand Bat,Left arm Medium fast,4,4,1,22,30,11,7.33,73.33,,,,1,1
+Jan Frylinck,Namibia,Allrounder,false,false,false,30y 34d,Left hand Bat,Left arm Fast medium,4,3,,58,68,45,19.33,85.29,,,,8,0
+Michael van Lingen,Namibia,Bowling Allrounder,false,false,false,26y 199d,Left hand Bat,"Left arm Medium, Slow Left arm Orthodox",3,3,,43,41,33,14.33,104.87,,,1,3,3
+David Wiese,Namibia,Allrounder,false,false,false,38y 358d,Right hand Bat,Right arm Medium fast,4,4,1,51,40,27,17.00,127.50,,,,2,4
 Peter-Daniel Blignaut,Namibia,Bowler,false,false,false,18y 202d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Jack Brassell,Namibia,Bowler,false,false,false,19y 40d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Tangeni Lungameni,Namibia,Bowler,false,false,false,32y 23d,Right hand Bat,Left arm Medium,,,,,,,,,,,,,
-Bernard Scholtz,Namibia,Bowler,false,false,false,33y 220d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Ben Shikongo,Namibia,Bowler,false,false,false,24y 2d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Ruben Trumpelmann,Namibia,Bowler,false,false,false,26y 99d,Right hand Bat,Left arm Fast,,,,,,,,,,,,,
-Aasif Sheikh,Nepal,Wicketkeeper Batter,false,false,false,22y 314d,Right hand Bat,,3,3,,63,42,21.00,71,88.73,,,,9,1
-Dipendra Singh Airee,Nepal,Middle order Batter,false,false,false,24y 98d,Right hand Bat,"Right arm Medium, Right arm Offbreak",3,3,,32,25,10.66,48,66.66,,,,2,1
-Kushal Bhurtel,Nepal,Opening Batter,false,false,false,27y 100d,Right hand Bat,Legbreak Googly,3,3,,24,13,8.00,39,61.53,,,,3,1
-Sundeep Jora,Nepal,Middle order Batter,false,false,false,22y 194d,Right hand Bat,,,,,,,,,,,,,,
-Anil Sah,Nepal,Wicketkeeper,false,false,false,25y 166d,Right hand Bat,Right arm Offbreak,3,3,,38,27,12.66,38,100.00,,,1,5,1
-Rohit Paudel,Nepal,Batting Allrounder,false,true,false,21y 242d,Right hand Bat,Right arm Offbreak,3,3,,36,35,12.00,45,80.00,,,1,5,0
-Gulsan Jha,Nepal,Allrounder,false,false,false,18y 74d,Left hand Bat,Right arm Medium,3,3,,20,14,6.66,25,80.00,,,1,1,1
-Karan KC,Nepal,Allrounder,false,false,false,32y 204d,Right hand Bat,Right arm Fast,2,1,,17,17,17.00,12,141.66,,,,0,2
-Kushal Malla,Nepal,Batting Allrounder,false,false,false,20y 57d,Left hand Bat,Slow Left arm Orthodox,3,3,,37,27,12.33,52,71.15,,,,2,1
-Sompal Kami,Nepal,Bowling Allrounder,false,false,false,28y 89d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
+Jack Brassell,Namibia,Bowler,false,false,false,19y 40d,Right hand Bat,Right arm Medium,2,1,1,2,3,2*,0.00,66.66,,,,0,0
+Tangeni Lungameni,Namibia,Bowler,false,false,false,32y 23d,Right hand Bat,Left arm Medium,2,1,1,,0,0*,0.00,0.00,,,,0,0
+Bernard Scholtz,Namibia,Bowler,false,false,false,33y 220d,Right hand Bat,Slow Left arm Orthodox,4,2,1,6,6,6*,6.00,100.00,,,1,0,0
+Ben Shikongo,Namibia,Bowler,false,false,false,24y 2d,Right hand Bat,Right arm Medium fast,1,1,,,4,,0.00,0.00,,,1,0,0
+Ruben Trumpelmann,Namibia,Bowler,false,false,false,26y 99d,Right hand Bat,Left arm Fast,4,2,,8,9,7,4.00,88.88,,,,0,1
+Aasif Sheikh,Nepal,Wicketkeeper Batter,false,false,false,22y 314d,Right hand Bat,,3,3,,63,71,42,21.00,88.73,,,,9,1
+Dipendra Singh Airee,Nepal,Middle order Batter,false,false,false,24y 98d,Right hand Bat,"Right arm Medium, Right arm Offbreak",3,3,,32,48,25,10.66,66.66,,,,2,1
+Kushal Bhurtel,Nepal,Opening Batter,false,false,false,27y 100d,Right hand Bat,Legbreak Googly,3,3,,24,39,13,8.00,61.53,,,,3,1
+Sundeep Jora,Nepal,Middle order Batter,false,false,false,22y 194d,Right hand Bat,,1,1,,1,8,1,1.00,12.50,,,,0,0
+Anil Sah,Nepal,Wicketkeeper,false,false,false,25y 166d,Right hand Bat,Right arm Offbreak,3,3,,38,38,27,12.66,100.00,,,1,5,1
+Rohit Paudel,Nepal,Batting Allrounder,false,true,false,21y 242d,Right hand Bat,Right arm Offbreak,3,3,,36,45,35,12.00,80.00,,,1,5,0
+Gulsan Jha,Nepal,Allrounder,false,false,false,18y 74d,Left hand Bat,Right arm Medium,3,3,,20,25,14,6.66,80.00,,,1,1,1
+Karan KC,Nepal,Allrounder,false,false,false,32y 204d,Right hand Bat,Right arm Fast,2,1,,17,12,17,17.00,141.66,,,,0,2
+Kushal Malla,Nepal,Batting Allrounder,false,false,false,20y 57d,Left hand Bat,Slow Left arm Orthodox,3,3,,37,52,27,12.33,71.15,,,,2,1
+Sompal Kami,Nepal,Bowling Allrounder,false,false,false,28y 89d,Right hand Bat,Right arm Fast medium,3,3,1,8,11,8*,4.00,72.72,,,2,0,1
 Pratis GC,Nepal,Bowling Allrounder,true,false,false,19y 345d,Right hand Bat,Left arm Medium,,,,,,,,,,,,,
 Kamal Airee,Nepal,Bowler,false,false,false,23y 134d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Abinash Bohara,Nepal,Bowler,false,false,false,26y 276d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Sagar Dhakal,Nepal,Bowler,false,false,false,22y 139d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Sandeep Lamichhane,Nepal,Bowler,false,false,false,23y 273d,Right hand Bat,Legbreak Googly,,,,,,,,,,,,,
+Abinash Bohara,Nepal,Bowler,false,false,false,26y 276d,Right hand Bat,Right arm Medium,3,2,,,2,,0.00,0.00,,,2,0,0
+Sagar Dhakal,Nepal,Bowler,false,false,false,22y 139d,Right hand Bat,Slow Left arm Orthodox,1,1,1,,1,0*,0.00,0.00,,,,0,0
+Sandeep Lamichhane,Nepal,Bowler,false,false,false,23y 273d,Right hand Bat,Legbreak Googly,2,1,1,,0,0*,0.00,0.00,,,,0,0
 Lalit Rajbanshi,Nepal,Bowler,false,false,false,25y 64d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Scott Edwards,Netherlands,Wicketkeeper Batter,false,true,false,27y 264d,Right hand Bat,,4,4,,71,31,17.75,64,110.93,,,,5,2
+Scott Edwards,Netherlands,Wicketkeeper Batter,false,true,false,27y 264d,Right hand Bat,,4,4,,71,64,31,17.75,110.93,,,,5,2
 Wesley Barresi,Netherlands,Batter,false,false,false,40y 10d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Michael Levitt,Netherlands,Top order Batter,false,false,false,20y 329d,Right hand Bat,Right arm Fast,4,4,,50,31,12.50,45,111.11,,,1,4,4
-Max O'Dowd,Netherlands,Opening Batter,false,false,false,30y 70d,Right hand Bat,Right arm Offbreak,4,4,1,79,54*,26.33,78,101.28,,1,,7,2
-Vikramjit Singh,Netherlands,Opening Batter,false,false,false,21y 125d,Left hand Bat,Right arm Medium,4,4,,67,26,16.75,71,94.36,,,,5,3
-Bas de Leede,Netherlands,Batting Allrounder,false,false,false,24y 180d,Right hand Bat,Right arm Fast medium,4,4,1,20,11*,6.66,33,60.60,,,1,1,0
-Sybrand Engelbrecht,Netherlands,Allrounder,false,false,false,35y 241d,Right hand Bat,Right arm Offbreak,4,4,,98,40,24.50,92,106.52,,,,6,3
-Teja Nidamanuru,Netherlands,Allrounder,false,false,false,29y 265d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Tim Pringle,Netherlands,Allrounder,false,false,false,21y 258d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
+Michael Levitt,Netherlands,Top order Batter,false,false,false,20y 329d,Right hand Bat,Right arm Fast,4,4,,50,45,31,12.50,111.11,,,1,4,4
+Max O'Dowd,Netherlands,Opening Batter,false,false,false,30y 70d,Right hand Bat,Right arm Offbreak,4,4,1,79,78,54*,26.33,101.28,,1,,7,2
+Vikramjit Singh,Netherlands,Opening Batter,false,false,false,21y 125d,Left hand Bat,Right arm Medium,4,4,,67,71,26,16.75,94.36,,,,5,3
+Bas de Leede,Netherlands,Batting Allrounder,false,false,false,24y 180d,Right hand Bat,Right arm Fast medium,4,4,1,20,33,11*,6.66,60.60,,,1,1,0
+Sybrand Engelbrecht,Netherlands,Allrounder,false,false,false,35y 241d,Right hand Bat,Right arm Offbreak,4,4,,98,92,40,24.50,106.52,,,,6,3
+Teja Nidamanuru,Netherlands,Allrounder,false,false,false,29y 265d,Right hand Bat,Right arm Offbreak,2,1,,,1,,0.00,0.00,,,1,0,0
+Tim Pringle,Netherlands,Allrounder,false,false,false,21y 258d,Right hand Bat,Slow Left arm Orthodox,4,3,,3,16,2,1.00,18.75,,,1,0,0
 Saqib Zulfiqar,Netherlands,Bowling Allrounder,false,false,false,27y 46d,Right hand Bat,Legbreak,,,,,,,,,,,,,
-Aryan Dutt,Netherlands,Bowler,false,false,false,21y 1d,Right hand Bat,Right arm Offbreak,2,2,1,25,15*,25.00,20,125.00,,,,2,1
-Vivian Kingma,Netherlands,Bowler,false,false,false,29y 203d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
+Aryan Dutt,Netherlands,Bowler,false,false,false,21y 1d,Right hand Bat,Right arm Offbreak,2,2,1,25,20,15*,25.00,125.00,,,,2,1
+Vivian Kingma,Netherlands,Bowler,false,false,false,29y 203d,Right hand Bat,Right arm Medium fast,4,1,1,1,1,1*,0.00,100.00,,,,0,0
 Kyle Klein,Netherlands,Bowler,false,false,false,22y 315d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Logan van Beek,Netherlands,Bowler,false,false,false,33y 249d,Right hand Bat,Right arm Medium fast,4,3,,25,23,8.33,26,96.15,,,1,3,0
-Paul van Meekeren,Netherlands,Bowler,false,false,false,31y 119d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
+Logan van Beek,Netherlands,Bowler,false,false,false,33y 249d,Right hand Bat,Right arm Medium fast,4,3,,25,26,23,8.33,96.15,,,1,3,0
+Paul van Meekeren,Netherlands,Bowler,false,false,false,31y 119d,Right hand Bat,Right arm Fast medium,4,2,1,4,9,3,4.00,44.44,,,,0,0
 Daniel Doram,Netherlands,Bowler,true,false,false,26y 213d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
 Fred Klaassen,Netherlands,Bowler,true,false,false,31y 182d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Kane Williamson,New Zealand,Top order Batter,false,true,false,33y 265d,Right hand Bat,Right arm Offbreak,4,3,1,28,18*,14.00,32,87.50,,,,3,0
-Finn Allen,New Zealand,Top order Batter,false,false,false,25y 7d,Right hand Bat,,4,4,,35,26,8.75,43,81.39,,,2,4,1
-Devon Conway,New Zealand,Wicketkeeper Batter,false,false,false,32y 296d,Left hand Bat,Right arm Medium,4,4,1,70,35,23.33,65,107.69,,,,7,3
-Michael Bracewell,New Zealand,Batting Allrounder,false,false,false,33y 75d,Left hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Mark Chapman,New Zealand,Allrounder,false,false,false,29y 307d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Daryl Mitchell,New Zealand,Batting Allrounder,false,false,false,32y 345d,Right hand Bat,Right arm Medium,4,3,1,36,19*,18.00,30,120.00,,,,5,0
-James Neesham,New Zealand,Batting Allrounder,false,false,false,33y 225d,Left hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Glenn Phillips,New Zealand,Allrounder,false,false,false,27y 145d,Right hand Bat,Right arm Offbreak,4,2,,58,40,29.00,51,113.72,,,,5,2
-Rachin Ravindra,New Zealand,Batting Allrounder,false,false,false,24y 163d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Mitchell Santner,New Zealand,Bowling Allrounder,false,false,false,32y 84d,Left hand Bat,Slow Left arm Orthodox,4,2,1,25,21*,25.00,20,125.00,,,,0,3
-Trent Boult,New Zealand,Bowler,false,false,false,34y 282d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Lockie Ferguson,New Zealand,Bowler,false,false,false,32y 321d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Matt Henry,New Zealand,Bowler,false,false,false,32y 137d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Ish Sodhi,New Zealand,Bowler,false,false,false,31y 181d,Right hand Bat,Legbreak,,,,,,,,,,,,,
-Tim Southee,New Zealand,Bowler,false,false,false,35y 140d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Aqib Ilyas,Oman,Top order Batter,false,true,false,31y 239d,Right hand Bat,"Right arm Offbreak, Legbreak Googly",4,4,,42,18,10.50,35,120.00,,,1,5,2
+Kane Williamson,New Zealand,Top order Batter,false,true,false,33y 265d,Right hand Bat,Right arm Offbreak,4,3,1,28,32,18*,14.00,87.50,,,,3,0
+Finn Allen,New Zealand,Top order Batter,false,false,false,25y 7d,Right hand Bat,,4,4,,35,43,26,8.75,81.39,,,2,4,1
+Devon Conway,New Zealand,Wicketkeeper Batter,false,false,false,32y 296d,Left hand Bat,Right arm Medium,4,4,1,70,65,35,23.33,107.69,,,,7,3
+Michael Bracewell,New Zealand,Batting Allrounder,false,false,false,33y 75d,Left hand Bat,Right arm Offbreak,1,1,,,1,,0.00,0.00,,,1,0,0
+Mark Chapman,New Zealand,Allrounder,false,false,false,29y 307d,Left hand Bat,Slow Left arm Orthodox,1,1,,4,7,4,4.00,57.14,,,,0,0
+Daryl Mitchell,New Zealand,Batting Allrounder,false,false,false,32y 345d,Right hand Bat,Right arm Medium,4,3,1,36,30,19*,18.00,120.00,,,,5,0
+James Neesham,New Zealand,Batting Allrounder,false,false,false,33y 225d,Left hand Bat,Right arm Medium fast,2,1,,10,11,10,10.00,90.90,,,,0,1
+Glenn Phillips,New Zealand,Allrounder,false,false,false,27y 145d,Right hand Bat,Right arm Offbreak,4,2,,58,51,40,29.00,113.72,,,,5,2
+Rachin Ravindra,New Zealand,Batting Allrounder,false,false,false,24y 163d,Left hand Bat,Slow Left arm Orthodox,3,3,1,17,25,10,8.50,68.00,,,,0,0
+Mitchell Santner,New Zealand,Bowling Allrounder,false,false,false,32y 84d,Left hand Bat,Slow Left arm Orthodox,4,2,1,25,20,21*,25.00,125.00,,,,0,3
+Trent Boult,New Zealand,Bowler,false,false,false,34y 282d,Right hand Bat,Left arm Fast medium,4,2,1,10,11,7,10.00,90.90,,,,0,1
+Lockie Ferguson,New Zealand,Bowler,false,false,false,32y 321d,Right hand Bat,Right arm Fast,4,2,1,2,5,2,2.00,40.00,,,,0,0
+Matt Henry,New Zealand,Bowler,false,false,false,32y 137d,Right hand Bat,Right arm Fast medium,1,1,,12,17,12,12.00,70.58,,,,0,1
+Ish Sodhi,New Zealand,Bowler,false,false,false,31y 181d,Right hand Bat,Legbreak,1,,,,0,,0.00,0.00,,,,0,0
+Tim Southee,New Zealand,Bowler,false,false,false,35y 140d,Right hand Bat,Right arm Medium fast,3,1,,,1,,0.00,0.00,,,1,0,0
+Aqib Ilyas,Oman,Top order Batter,false,true,false,31y 239d,Right hand Bat,"Right arm Offbreak, Legbreak Googly",4,4,,42,35,18,10.50,120.00,,,1,5,2
 Pratik Athavale,Oman,Wicketkeeper Batter,false,false,false,27y 11d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Khalid Kail,Oman,Middle order Batter,false,false,false,27y 201d,Right hand Bat,,4,4,,48,34,12.00,61,78.68,,,,2,1
-Mehran Khan,Oman,Batter,false,false,false,37y 18d,Right hand Bat,Right arm Medium fast,4,4,,47,27,11.75,36,130.55,,,1,4,2
-Naseem Khushi,Oman,Wicketkeeper,false,false,false,41y 264d,Right hand Bat,,,,,,,,,,,,,,
+Khalid Kail,Oman,Middle order Batter,false,false,false,27y 201d,Right hand Bat,,4,4,,48,61,34,12.00,78.68,,,,2,1
+Mehran Khan,Oman,Batter,false,false,false,37y 18d,Right hand Bat,Right arm Medium fast,4,4,,47,36,27,11.75,130.55,,,1,4,2
+Naseem Khushi,Oman,Wicketkeeper,false,false,false,41y 264d,Right hand Bat,,2,2,,16,15,10,8.00,106.66,,,,1,1
 Kashyap Prajapati,Oman,Top order Batter,false,false,false,28y 203d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Shoaib Khan,Oman,Batter,false,false,false,31y 147d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Zeeshan Maqsood,Oman,Opening Batter,false,false,false,36y 190d,Left hand Bat,Slow Left arm Orthodox,4,4,,27,22,6.75,36,75.00,,,,4,0
-Ayaan Khan,Oman,Allrounder,false,false,false,31y 245d,Left hand Bat,Slow Left arm Orthodox,4,4,1,93,41*,31.00,95,97.89,,,,6,3
-Mohammad Nadeem,Oman,Allrounder,false,false,false,41y 240d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Bilal Khan,Oman,Bowler,false,false,false,37y 21d,Left hand Bat,Left arm Medium fast,,,,,,,,,,,,,
-Fayyaz Butt,Oman,Bowler,false,false,false,30y 258d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Kaleemullah,Oman,Bowler,false,false,false,33y 129d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Rafiullah,Oman,Bowler,false,false,false,27y 259d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Shakeel Ahmed,Oman,Bowler,false,false,false,36y 87d,Left hand Bat,Slow Left arm Orthodox,3,3,1,25,11,12.50,21,119.04,,,,3,0
-Babar Azam,Pakistan,Batter,false,true,false,29y 222d,Right hand Bat,Right arm Offbreak,4,4,1,122,44,40.66,120,101.66,,,,8,3
-Azam Khan,Pakistan,Wicketkeeper Batter,false,false,false,25y 288d,Right hand Bat,,,,,,,,,,,,,,
-Fakhar Zaman,Pakistan,Opening Batter,false,false,false,34y 44d,Left hand Bat,Slow Left arm Orthodox,4,4,,33,13,8.25,30,110.00,,,,1,2
-Iftikhar Ahmed,Pakistan,Middle order Batter,false,false,false,33y 264d,Right hand Bat,Right arm Offbreak,2,2,,23,18,11.50,23,100.00,,,,3,0
-Mohammad Rizwan,Pakistan,Wicketkeeper Batter,false,false,false,31y 358d,Right hand Bat,Right arm Medium,4,4,1,110,53*,36.66,121,90.90,,1,,5,3
-Saim Ayub,Pakistan,Top order Batter,false,false,false,22y,Left hand Bat,"Right arm Medium fast, Right arm Offbreak",2,2,,23,17,11.50,29,79.31,,,,2,1
-Usman Khan,Pakistan,Top order Batter,false,false,false,29y 14d,Right hand Bat,Right arm Offbreak,4,4,1,20,13,6.66,22,90.90,,,,1,0
-Imad Wasim,Pakistan,Allrounder,false,false,false,35y 158d,Left hand Bat,Slow Left arm Orthodox,3,2,,19,15,9.50,29,65.51,,,,2,0
-Shadab Khan,Pakistan,Allrounder,false,false,false,25y 233d,Right hand Bat,Legbreak,4,3,,44,40,14.66,34,129.41,,,1,1,3
-Abbas Afridi,Pakistan,Bowler,false,false,false,23y 49d,Right hand Bat,Right arm Medium fast,1,1,,17,17,17.00,21,80.95,,,,1,1
+Shoaib Khan,Oman,Batter,false,false,false,31y 147d,Right hand Bat,Right arm Medium,2,2,,11,27,11,5.50,40.74,,,1,1,0
+Zeeshan Maqsood,Oman,Opening Batter,false,false,false,36y 190d,Left hand Bat,Slow Left arm Orthodox,4,4,,27,36,22,6.75,75.00,,,,4,0
+Ayaan Khan,Oman,Allrounder,false,false,false,31y 245d,Left hand Bat,Slow Left arm Orthodox,4,4,1,93,95,41*,31.00,97.89,,,,6,3
+Mohammad Nadeem,Oman,Allrounder,false,false,false,41y 240d,Right hand Bat,Right arm Medium fast,1,1,,6,10,6,6.00,60.00,,,,0,0
+Bilal Khan,Oman,Bowler,false,false,false,37y 21d,Left hand Bat,Left arm Medium fast,4,3,3,2,4,1*,0.00,50.00,,,,0,0
+Fayyaz Butt,Oman,Bowler,false,false,false,30y 258d,Right hand Bat,Right arm Medium fast,1,1,,2,7,2,2.00,28.57,,,,0,0
+Kaleemullah,Oman,Bowler,false,false,false,33y 129d,Right hand Bat,Right arm Medium,4,3,1,13,12,6*,6.50,108.33,,,,1,0
+Rafiullah,Oman,Bowler,false,false,false,27y 259d,Right hand Bat,Right arm Medium,1,1,,,3,,0.00,0.00,,,1,0,0
+Shakeel Ahmed,Oman,Bowler,false,false,false,36y 87d,Left hand Bat,Slow Left arm Orthodox,3,3,1,25,21,11,12.50,119.04,,,,3,0
+Babar Azam,Pakistan,Batter,false,true,false,29y 222d,Right hand Bat,Right arm Offbreak,4,4,1,122,120,44,40.66,101.66,,,,8,3
+Azam Khan,Pakistan,Wicketkeeper Batter,false,false,false,25y 288d,Right hand Bat,,1,1,,,1,,0.00,0.00,,,1,0,0
+Fakhar Zaman,Pakistan,Opening Batter,false,false,false,34y 44d,Left hand Bat,Slow Left arm Orthodox,4,4,,33,30,13,8.25,110.00,,,,1,2
+Iftikhar Ahmed,Pakistan,Middle order Batter,false,false,false,33y 264d,Right hand Bat,Right arm Offbreak,2,2,,23,23,18,11.50,100.00,,,,3,0
+Mohammad Rizwan,Pakistan,Wicketkeeper Batter,false,false,false,31y 358d,Right hand Bat,Right arm Medium,4,4,1,110,121,53*,36.66,90.90,,1,,5,3
+Saim Ayub,Pakistan,Top order Batter,false,false,false,22y,Left hand Bat,"Right arm Medium fast, Right arm Offbreak",2,2,,23,29,17,11.50,79.31,,,,2,1
+Usman Khan,Pakistan,Top order Batter,false,false,false,29y 14d,Right hand Bat,Right arm Offbreak,4,4,1,20,22,13,6.66,90.90,,,,1,0
+Imad Wasim,Pakistan,Allrounder,false,false,false,35y 158d,Left hand Bat,Slow Left arm Orthodox,3,2,,19,29,15,9.50,65.51,,,,2,0
+Shadab Khan,Pakistan,Allrounder,false,false,false,25y 233d,Right hand Bat,Legbreak,4,3,,44,34,40,14.66,129.41,,,1,1,3
+Abbas Afridi,Pakistan,Bowler,false,false,false,23y 49d,Right hand Bat,Right arm Medium fast,1,1,,17,21,17,17.00,80.95,,,,1,1
 Abrar Ahmed,Pakistan,Bowler,false,false,false,25y 256d,Right hand Bat,Legbreak Googly,,,,,,,,,,,,,
-Haris Rauf,Pakistan,Bowler,false,false,false,30y 199d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Mohammad Amir,Pakistan,Bowler,false,false,false,32y 41d,Left hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Naseem Shah,Pakistan,Bowler,false,false,false,21y 99d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Shaheen Shah Afridi,Pakistan,Bowler,false,false,false,24y 48d,Left hand Bat,Left arm Fast,4,3,3,36,23*,0.00,22,163.63,,,,1,4
-Assad Vala,Papua New Guinea,Batter,false,true,false,36y 277d,Left hand Bat,Right arm Offbreak,4,4,,30,21,7.50,42,71.42,,,1,3,1
-Sese Bau,Papua New Guinea,Middle order Batter,false,false,false,31y 320d,Left hand Bat,Right arm Offbreak,4,4,,67,50,16.75,80,83.75,,1,1,8,1
-Kiplin Doriga,Papua New Guinea,Wicketkeeper Batter,false,false,false,28y 203d,Right hand Bat,,4,4,1,71,27*,23.66,77,92.20,,,,6,1
-Hiri Hiri,Papua New Guinea,Middle order Batter,false,false,false,29y 7d,Right hand Bat,Right arm Offbreak,4,4,,25,15,6.25,39,64.10,,,,3,0
-Lega Siaka,Papua New Guinea,Opening Batter,false,false,false,31y 139d,Right hand Bat,"Right arm Fast medium, Legbreak",,,,,,,,,,,,,
-Tony Ura,Papua New Guinea,Opening Batter,false,false,false,34y 206d,Right hand Bat,,,,,,,,,,,,,,
+Haris Rauf,Pakistan,Bowler,false,false,false,30y 199d,Right hand Bat,Right arm Fast,4,1,1,3,3,3*,0.00,100.00,,,,0,0
+Mohammad Amir,Pakistan,Bowler,false,false,false,32y 41d,Left hand Bat,Left arm Fast medium,4,,,,0,,0.00,0.00,,,,0,0
+Naseem Shah,Pakistan,Bowler,false,false,false,21y 99d,Right hand Bat,Right arm Fast,3,1,1,10,4,10*,0.00,250.00,,,,2,0
+Shaheen Shah Afridi,Pakistan,Bowler,false,false,false,24y 48d,Left hand Bat,Left arm Fast,4,3,3,36,22,23*,0.00,163.63,,,,1,4
+Assad Vala,Papua New Guinea,Batter,false,true,false,36y 277d,Left hand Bat,Right arm Offbreak,4,4,,30,42,21,7.50,71.42,,,1,3,1
+Sese Bau,Papua New Guinea,Middle order Batter,false,false,false,31y 320d,Left hand Bat,Right arm Offbreak,4,4,,67,80,50,16.75,83.75,,1,1,8,1
+Kiplin Doriga,Papua New Guinea,Wicketkeeper Batter,false,false,false,28y 203d,Right hand Bat,,4,4,1,71,77,27*,23.66,92.20,,,,6,1
+Hiri Hiri,Papua New Guinea,Middle order Batter,false,false,false,29y 7d,Right hand Bat,Right arm Offbreak,4,4,,25,39,15,6.25,64.10,,,,3,0
+Lega Siaka,Papua New Guinea,Opening Batter,false,false,false,31y 139d,Right hand Bat,"Right arm Fast medium, Legbreak",3,3,,13,20,12,4.33,65.00,,,1,1,0
+Tony Ura,Papua New Guinea,Opening Batter,false,false,false,34y 206d,Right hand Bat,,4,4,,16,31,11,4.00,51.61,,,,1,0
 Hila Vare,Papua New Guinea,Batter,false,false,false,22y 272d,Left hand Bat,,,,,,,,,,,,,,
-Charles Amini,Papua New Guinea,Allrounder,false,false,true,32y 24d,Left hand Bat,Legbreak,3,3,,34,17,11.33,53,64.15,,,,2,0
+Charles Amini,Papua New Guinea,Allrounder,false,false,true,32y 24d,Left hand Bat,Legbreak,3,3,,34,53,17,11.33,64.15,,,,2,0
 Jack Gardner,Papua New Guinea,Bowler,false,false,false,23y 137d,Left hand Bat,Left arm Fast,,,,,,,,,,,,,
-Semo Kamea,Papua New Guinea,Bowler,false,false,false,22y 261d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-John Kariko,Papua New Guinea,Bowler,false,false,false,20y 113d,Right hand Bat,Left arm Medium,,,,,,,,,,,,,
-Kabua Morea,Papua New Guinea,Bowler,false,false,false,30y 221d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Alei Nao,Papua New Guinea,Bowler,false,false,false,30y 151d,Right hand Bat,Right arm Medium fast,4,4,,21,13,5.25,32,65.62,,,1,2,0
-Chad Soper,Papua New Guinea,Bowler,false,false,false,32y 171d,Right hand Bat,Right arm Medium,4,4,,24,10,6.00,52,46.15,,,,1,0
-Norman Vanua,Papua New Guinea,Bowler,false,false,false,30y 158d,,,3,3,,19,14,6.33,30,63.33,,,1,1,1
-Richie Berrington,Scotland,Top order Batter,false,true,false,37y 33d,Right hand Bat,Right arm Medium fast,4,3,2,102,47*,102.00,73,139.72,,,,4,5
-Matthew Cross,Scotland,Wicketkeeper Batter,false,false,false,31y 204d,Right hand Bat,,4,3,1,36,18,18.00,24,150.00,,,,1,3
+Semo Kamea,Papua New Guinea,Bowler,false,false,false,22y 261d,Left hand Bat,Slow Left arm Orthodox,2,2,1,3,4,2,3.00,75.00,,,,0,0
+John Kariko,Papua New Guinea,Bowler,false,false,false,20y 113d,Right hand Bat,Left arm Medium,3,2,2,4,9,4*,0.00,44.44,,,,1,0
+Kabua Morea,Papua New Guinea,Bowler,false,false,false,30y 221d,Right hand Bat,Right arm Medium,2,2,1,2,5,2*,2.00,40.00,,,1,0,0
+Alei Nao,Papua New Guinea,Bowler,false,false,false,30y 151d,Right hand Bat,Right arm Medium fast,4,4,,21,32,13,5.25,65.62,,,1,2,0
+Chad Soper,Papua New Guinea,Bowler,false,false,false,32y 171d,Right hand Bat,Right arm Medium,4,4,,24,52,10,6.00,46.15,,,,1,0
+Norman Vanua,Papua New Guinea,Bowler,false,false,false,30y 158d,,,3,3,,19,30,14,6.33,63.33,,,1,1,1
+Richie Berrington,Scotland,Top order Batter,false,true,false,37y 33d,Right hand Bat,Right arm Medium fast,4,3,2,102,73,47*,102.00,139.72,,,,4,5
+Matthew Cross,Scotland,Wicketkeeper Batter,false,false,false,31y 204d,Right hand Bat,,4,3,1,36,24,18,18.00,150.00,,,,1,3
 Ollie Hairs,Scotland,Opening Batter,false,false,false,33y 22d,Left hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Michael Jones,Scotland,Top order Batter,false,false,false,26y 122d,Right hand Bat,Right arm Offbreak,4,4,1,89,45*,29.66,66,134.84,,,,8,5
-George Munsey,Scotland,Opening Batter,false,false,false,31y 75d,Left hand Bat,Right arm Medium fast,4,4,1,124,41*,41.33,89,139.32,,,,8,9
+Michael Jones,Scotland,Top order Batter,false,false,false,26y 122d,Right hand Bat,Right arm Offbreak,4,4,1,89,66,45*,29.66,134.84,,,,8,5
+George Munsey,Scotland,Opening Batter,false,false,false,31y 75d,Left hand Bat,Right arm Medium fast,4,4,1,124,89,41*,41.33,139.32,,,,8,9
 Charlie Tear,Scotland,Wicketkeeper Batter,false,false,false,19y 329d,Right hand Bat,,,,,,,,,,,,,,
-Michael Leask,Scotland,Allrounder,false,false,false,33y 190d,Right hand Bat,Right arm Offbreak,4,2,,40,35,20.00,25,160.00,,,,0,4
-Brandon McMullen,Scotland,Batting Allrounder,false,false,false,24y 201d,Right hand Bat,Right arm Medium,4,3,1,140,61*,70.00,82,170.73,,2,,13,8
-Brad Currie,Scotland,Bowler,false,false,false,25y 180d,Right hand Bat,Left arm Medium,,,,,,,,,,,,,
-Chris Greaves,Scotland,Bowler,false,false,false,33y 207d,Right hand Bat,Legbreak,,,,,,,,,,,,,
+Michael Leask,Scotland,Allrounder,false,false,false,33y 190d,Right hand Bat,Right arm Offbreak,4,2,,40,25,35,20.00,160.00,,,,0,4
+Brandon McMullen,Scotland,Batting Allrounder,false,false,false,24y 201d,Right hand Bat,Right arm Medium,4,3,1,140,82,61*,70.00,170.73,,2,,13,8
+Brad Currie,Scotland,Bowler,false,false,false,25y 180d,Right hand Bat,Left arm Medium,2,,,,0,,0.00,0.00,,,,0,0
+Chris Greaves,Scotland,Bowler,false,false,false,33y 207d,Right hand Bat,Legbreak,4,2,2,13,13,9*,0.00,100.00,,,,0,0
 Jack Jarvis,Scotland,Bowler,false,false,false,20y 343d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Safyaan Sharif,Scotland,Bowler,false,false,false,32y 348d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Chris Sole,Scotland,Bowler,false,false,false,30y 69d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Mark Watt,Scotland,Bowler,false,false,false,27y 282d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Brad Wheal,Scotland,Bowler,false,false,false,27y 252d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Aiden Markram,South Africa,Opening Batter,false,true,false,29y 209d,Right hand Bat,Right arm Offbreak,9,9,1,123,46,15.37,122,100.81,,,1,14,2
-Quinton de Kock,South Africa,Wicketkeeper Batter,false,false,false,31y 135d,Left hand Bat,,9,9,,243,74,27.00,173,140.46,,2,1,21,13
-Reeza Hendricks,South Africa,Opening Batter,false,false,false,34y 260d,Right hand Bat,Right arm Offbreak,9,9,1,113,43,14.12,129,87.59,,,2,11,3
-Heinrich Klaasen,South Africa,Wicketkeeper Batter,false,false,false,32y 275d,Right hand Bat,Right arm Offbreak,9,8,2,190,52,31.66,150,126.66,,1,,9,13
-David Miller,South Africa,Middle order Batter,false,false,false,34y 325d,Left hand Bat,Right arm Offbreak,9,8,2,169,59*,28.16,165,102.42,,1,1,10,8
+Safyaan Sharif,Scotland,Bowler,false,false,false,32y 348d,Right hand Bat,Right arm Medium fast,2,,,,0,,0.00,0.00,,,,0,0
+Chris Sole,Scotland,Bowler,false,false,false,30y 69d,Right hand Bat,Right arm Fast medium,4,,,,0,,0.00,0.00,,,,0,0
+Mark Watt,Scotland,Bowler,false,false,false,27y 282d,Left hand Bat,Slow Left arm Orthodox,4,,,,0,,0.00,0.00,,,,0,0
+Brad Wheal,Scotland,Bowler,false,false,false,27y 252d,Right hand Bat,Right arm Fast medium,4,,,,0,,0.00,0.00,,,,0,0
+Aiden Markram,South Africa,Opening Batter,false,true,false,29y 209d,Right hand Bat,Right arm Offbreak,9,9,1,123,122,46,15.37,100.81,,,1,14,2
+Quinton de Kock,South Africa,Wicketkeeper Batter,false,false,false,31y 135d,Left hand Bat,,9,9,,243,173,74,27.00,140.46,,2,1,21,13
+Reeza Hendricks,South Africa,Opening Batter,false,false,false,34y 260d,Right hand Bat,Right arm Offbreak,9,9,1,113,129,43,14.12,87.59,,,2,11,3
+Heinrich Klaasen,South Africa,Wicketkeeper Batter,false,false,false,32y 275d,Right hand Bat,Right arm Offbreak,9,8,2,190,150,52,31.66,126.66,,1,,9,13
+David Miller,South Africa,Middle order Batter,false,false,false,34y 325d,Left hand Bat,Right arm Offbreak,9,8,2,169,165,59*,28.16,102.42,,1,1,10,8
 Ryan Rickelton,South Africa,Wicketkeeper Batter,false,false,false,27y 294d,Left hand Bat,,,,,,,,,,,,,,
-Tristan Stubbs,South Africa,Batter,false,false,false,23y 260d,Right hand Bat,Right arm Offbreak,9,8,3,165,33,33.00,163,101.22,,,1,13,3
-Marco Jansen,South Africa,Bowling Allrounder,false,false,false,23y 365d,Right hand Bat,Left arm Medium fast,9,6,2,32,21*,8.00,33,96.96,,,1,1,1
-Ottneil Baartman,South Africa,Bowler,false,false,false,31y 43d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
+Tristan Stubbs,South Africa,Batter,false,false,false,23y 260d,Right hand Bat,Right arm Offbreak,9,8,3,165,163,33,33.00,101.22,,,1,13,3
+Marco Jansen,South Africa,Bowling Allrounder,false,false,false,23y 365d,Right hand Bat,Left arm Medium fast,9,6,2,32,33,21*,8.00,96.96,,,1,1,1
+Ottneil Baartman,South Africa,Bowler,false,false,false,31y 43d,Right hand Bat,Right arm Medium fast,5,,,,0,,0.00,0.00,,,,0,0
 Gerald Coetzee,South Africa,Bowler,false,false,false,23y 211d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
 Bjorn Fortuin,South Africa,Bowler,false,false,false,29y 192d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Keshav Maharaj,South Africa,Bowler,false,false,false,34y 83d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Anrich Nortje,South Africa,Bowler,false,false,false,30y 166d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Kagiso Rabada,South Africa,Bowler,false,false,false,28y 341d,Left hand Bat,Right arm Fast,,,,,,,,,,,,,
-Tabraiz Shamsi,South Africa,Bowler,false,false,false,34y 72d,Right hand Bat,Left arm Wrist spin,,,,,,,,,,,,,
-Kusal Mendis,Sri Lanka,Wicketkeeper Batter,false,false,false,29y 97d,Right hand Bat,Legbreak,3,3,,75,46,25.00,67,111.94,,,,8,0
-Pathum Nissanka,Sri Lanka,Top order Batter,false,false,false,25y 357d,Right hand Bat,,3,3,,50,47,16.66,38,131.57,,,1,7,1
-Sadeera Samarawickrama,Sri Lanka,Wicketkeeper Batter,false,false,false,28y 253d,Right hand Bat,,,,,,,,,,,,,,
-Wanindu Hasaranga,Sri Lanka,Allrounder,false,true,false,26y 285d,Right hand Bat,Legbreak,3,3,1,20,20*,10.00,9,222.22,,,2,1,2
-Charith Asalanka,Sri Lanka,Batting Allrounder,false,false,true,26y 315d,Left hand Bat,Right arm Offbreak,3,3,,71,46,23.66,51,139.21,,,,1,6
-Dhananjaya de Silva,Sri Lanka,Allrounder,false,false,false,32y 246d,Right hand Bat,Right arm Offbreak,2,2,,55,34,27.50,52,105.76,,,,4,1
-Angelo Mathews,Sri Lanka,Allrounder,false,false,false,36y 342d,Right hand Bat,Right arm Medium,3,3,1,62,30*,31.00,50,124.00,,,,2,4
-Kamindu Mendis,Sri Lanka,Allrounder,false,false,false,25y 222d,Left hand Bat,"Right arm Offbreak, Slow Left arm Orthodox",3,3,,32,17,10.66,40,80.00,,,,3,1
-Dasun Shanaka,Sri Lanka,Allrounder,false,false,false,32y 243d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
+Keshav Maharaj,South Africa,Bowler,false,false,false,34y 83d,Right hand Bat,Slow Left arm Orthodox,8,5,4,13,24,5*,13.00,54.16,,,,1,0
+Anrich Nortje,South Africa,Bowler,false,false,false,30y 166d,Right hand Bat,Right arm Fast,9,1,1,1,1,1*,0.00,100.00,,,,0,0
+Kagiso Rabada,South Africa,Bowler,false,false,false,28y 341d,Left hand Bat,Right arm Fast,9,3,1,9,7,5*,4.50,128.57,,,1,2,0
+Tabraiz Shamsi,South Africa,Bowler,false,false,false,34y 72d,Right hand Bat,Left arm Wrist spin,5,,,,0,,0.00,0.00,,,,0,0
+Kusal Mendis,Sri Lanka,Wicketkeeper Batter,false,false,false,29y 97d,Right hand Bat,Legbreak,3,3,,75,67,46,25.00,111.94,,,,8,0
+Pathum Nissanka,Sri Lanka,Top order Batter,false,false,false,25y 357d,Right hand Bat,,3,3,,50,38,47,16.66,131.57,,,1,7,1
+Sadeera Samarawickrama,Sri Lanka,Wicketkeeper Batter,false,false,false,28y 253d,Right hand Bat,,1,1,,,1,,0.00,0.00,,,1,0,0
+Wanindu Hasaranga,Sri Lanka,Allrounder,false,true,false,26y 285d,Right hand Bat,Legbreak,3,3,1,20,9,20*,10.00,222.22,,,2,1,2
+Charith Asalanka,Sri Lanka,Batting Allrounder,false,false,true,26y 315d,Left hand Bat,Right arm Offbreak,3,3,,71,51,46,23.66,139.21,,,,1,6
+Dhananjaya de Silva,Sri Lanka,Allrounder,false,false,false,32y 246d,Right hand Bat,Right arm Offbreak,2,2,,55,52,34,27.50,105.76,,,,4,1
+Angelo Mathews,Sri Lanka,Allrounder,false,false,false,36y 342d,Right hand Bat,Right arm Medium,3,3,1,62,50,30*,31.00,124.00,,,,2,4
+Kamindu Mendis,Sri Lanka,Allrounder,false,false,false,25y 222d,Left hand Bat,"Right arm Offbreak, Slow Left arm Orthodox",3,3,,32,40,17,10.66,80.00,,,,3,1
+Dasun Shanaka,Sri Lanka,Allrounder,false,false,false,32y 243d,Right hand Bat,Right arm Medium,3,3,,12,18,9,4.00,66.66,,,1,0,1
 Dushmantha Chameera,Sri Lanka,Bowler,false,false,false,32y 119d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
 Dilshan Madushanka,Sri Lanka,Bowler,false,false,false,23y 234d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Matheesha Pathirana,Sri Lanka,Bowler,false,false,false,21y 143d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Maheesh Theekshana,Sri Lanka,Bowler,false,false,false,23y 282d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Nuwan Thushara,Sri Lanka,Bowler,false,false,false,29y 277d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
+Matheesha Pathirana,Sri Lanka,Bowler,false,false,false,21y 143d,Right hand Bat,Right arm Fast,3,2,1,,5,0*,0.00,0.00,,,1,0,0
+Maheesh Theekshana,Sri Lanka,Bowler,false,false,false,23y 282d,Right hand Bat,Right arm Offbreak,3,2,1,7,19,7*,7.00,36.84,,,1,1,0
+Nuwan Thushara,Sri Lanka,Bowler,false,false,false,29y 277d,Right hand Bat,Right arm Medium fast,3,2,1,,5,0*,0.00,0.00,,,1,0,0
 Dunith Wellalage,Sri Lanka,Bowler,false,false,false,21y 121d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Fred Achelam,Uganda,Wicketkeeper Batter,false,false,false,23y 100d,Right hand Bat,,,,,,,,,,,,,,
-Roger Mukasa,Uganda,Batter,false,false,false,34y 350d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Robinson Obuya,Uganda,Batter,false,false,false,23y 146d,Right hand Bat,,4,4,,21,14,5.25,36,58.33,,,1,1,1
-Ronak Patel,Uganda,Batter,false,false,false,35y 262d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Simon Ssesazi,Uganda,Wicketkeeper Batter,false,false,false,27y 260d,Left hand Bat,Right arm Slow,,,,,,,,,,,,,
-Riazat Ali Shah,Uganda,Batting Allrounder,false,false,true,26y 76d,Right hand Bat,Right arm Medium,4,4,,49,33,12.25,111,44.14,,,,1,0
-Dinesh Nakrani,Uganda,Allrounder,false,false,false,32y 228d,Left hand Bat,Left arm Medium,,,,,,,,,,,,,
-Frank Nsubuga,Uganda,Allrounder,false,false,false,43y 252d,Right hand Bat,Right arm Offbreak,,,,,,,,,,,,,
-Alpesh Ramjani,Uganda,Allrounder,false,false,false,29y 225d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Kenneth Waiswa,Uganda,Allrounder,false,false,false,25y 177d,Right hand Bat,Right arm Medium,3,3,1,19,11,9.50,44,43.18,,,,2,0
-Brian Masaba,Uganda,Bowler,false,true,false,32y 227d,Right hand Bat,"Right arm Fast medium, Right arm Offbreak, Legbreak Googly",,,,,,,,,,,,,
-Bilal Hassan,Uganda,Bowler,false,false,false,34y 21d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Cosmas Kyewuta,Uganda,Bowler,false,false,false,22y 130d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Juma Miyagi,Uganda,Bowler,false,false,false,21y 31d,Right hand Bat,Right arm Medium fast,3,3,1,26,13*,13.00,37,70.27,,,1,0,0
-Henry Ssenyondo,Uganda,Bowler,false,false,false,30y 268d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Monank Patel,United States of America,Wicketkeeper Batter,false,true,false,31y 2d,Right hand Bat,,2,2,,66,50,33.00,54,122.22,,1,,9,1
-Aaron Jones,United States of America,Top order Batter,false,false,true,29y 197d,Right hand Bat,Legbreak Googly,6,6,2,162,94*,40.50,120,135.00,,1,1,8,14
-Andries Gous,United States of America,Wicketkeeper Batter,false,false,false,30y 161d,Right hand Bat,,6,6,1,219,80*,43.80,145,151.03,,2,,20,11
-Nitish Kumar,United States of America,Top order Batter,false,false,false,29y 348d,Right hand Bat,Right arm Offbreak,6,5,1,99,30,24.75,86,115.11,,,,6,4
-Shayan Jahangir,United States of America,Batter,false,false,false,29y 131d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Steven Taylor,United States of America,Opening Batter,false,false,false,30y 176d,Left hand Bat,Right arm Offbreak,6,6,,74,24,12.33,82,90.24,,,1,7,3
-Corey Anderson,United States of America,Batting Allrounder,false,false,false,33y 142d,Left hand Bat,Left arm Medium fast,6,5,1,66,29,16.50,72,91.66,,,,1,3
-Harmeet Singh,United States of America,Bowling Allrounder,false,false,false,31y 239d,Left hand Bat,Slow Left arm Orthodox,6,4,,69,38,17.25,50,138.00,,,1,4,5
-Milind Kumar,United States of America,Allrounder,false,false,false,33y 78d,Right hand Bat,Right arm Offbreak,2,2,,23,19,11.50,27,85.18,,,,1,0
+Fred Achelam,Uganda,Wicketkeeper Batter,false,false,false,23y 100d,Right hand Bat,,1,1,,9,13,9,9.00,69.23,,,,1,0
+Roger Mukasa,Uganda,Batter,false,false,false,34y 350d,Right hand Bat,Right arm Offbreak,3,3,,,6,,0.00,0.00,,,3,0,0
+Robinson Obuya,Uganda,Batter,false,false,false,23y 146d,Right hand Bat,,4,4,,21,36,14,5.25,58.33,,,1,1,1
+Ronak Patel,Uganda,Batter,false,false,false,35y 262d,Right hand Bat,Slow Left arm Orthodox,2,2,,6,22,4,3.00,27.27,,,,1,0
+Simon Ssesazi,Uganda,Wicketkeeper Batter,false,false,false,27y 260d,Left hand Bat,Right arm Slow,4,4,,9,11,4,2.25,81.81,,,1,2,0
+Riazat Ali Shah,Uganda,Batting Allrounder,false,false,true,26y 76d,Right hand Bat,Right arm Medium,4,4,,49,111,33,12.25,44.14,,,,1,0
+Dinesh Nakrani,Uganda,Allrounder,false,false,false,32y 228d,Left hand Bat,Left arm Medium,4,4,,10,26,6,2.50,38.46,,,2,1,0
+Frank Nsubuga,Uganda,Allrounder,false,false,false,43y 252d,Right hand Bat,Right arm Offbreak,2,1,,,3,,0.00,0.00,,,1,0,0
+Alpesh Ramjani,Uganda,Allrounder,false,false,false,29y 225d,Left hand Bat,Slow Left arm Orthodox,4,4,,13,24,8,3.25,54.16,,,2,2,0
+Kenneth Waiswa,Uganda,Allrounder,false,false,false,25y 177d,Right hand Bat,Right arm Medium,3,3,1,19,44,11,9.50,43.18,,,,2,0
+Brian Masaba,Uganda,Bowler,false,true,false,32y 227d,Right hand Bat,"Right arm Fast medium, Right arm Offbreak, Legbreak Googly",4,4,2,4,26,3*,2.00,15.38,,,1,0,0
+Bilal Hassan,Uganda,Bowler,false,false,false,34y 21d,Right hand Bat,Right arm Medium fast,1,1,,8,16,8,8.00,50.00,,,,1,0
+Cosmas Kyewuta,Uganda,Bowler,false,false,false,22y 130d,Right hand Bat,Right arm Medium,4,3,1,4,14,2*,2.00,28.57,,,,0,0
+Juma Miyagi,Uganda,Bowler,false,false,false,21y 31d,Right hand Bat,Right arm Medium fast,3,3,1,26,37,13*,13.00,70.27,,,1,0,0
+Henry Ssenyondo,Uganda,Bowler,false,false,false,30y 268d,Right hand Bat,Slow Left arm Orthodox,1,1,,,1,,0.00,0.00,,,1,0,0
+Monank Patel,United States of America,Wicketkeeper Batter,false,true,false,31y 2d,Right hand Bat,,2,2,,66,54,50,33.00,122.22,,1,,9,1
+Aaron Jones,United States of America,Top order Batter,false,false,true,29y 197d,Right hand Bat,Legbreak Googly,6,6,2,162,120,94*,40.50,135.00,,1,1,8,14
+Andries Gous,United States of America,Wicketkeeper Batter,false,false,false,30y 161d,Right hand Bat,,6,6,1,219,145,80*,43.80,151.03,,2,,20,11
+Nitish Kumar,United States of America,Top order Batter,false,false,false,29y 348d,Right hand Bat,Right arm Offbreak,6,5,1,99,86,30,24.75,115.11,,,,6,4
+Shayan Jahangir,United States of America,Batter,false,false,false,29y 131d,Right hand Bat,Right arm Medium fast,2,2,,3,10,3,1.50,30.00,,,1,0,0
+Steven Taylor,United States of America,Opening Batter,false,false,false,30y 176d,Left hand Bat,Right arm Offbreak,6,6,,74,82,24,12.33,90.24,,,1,7,3
+Corey Anderson,United States of America,Batting Allrounder,false,false,false,33y 142d,Left hand Bat,Left arm Medium fast,6,5,1,66,72,29,16.50,91.66,,,,1,3
+Harmeet Singh,United States of America,Bowling Allrounder,false,false,false,31y 239d,Left hand Bat,Slow Left arm Orthodox,6,4,,69,50,38,17.25,138.00,,,1,4,5
+Milind Kumar,United States of America,Allrounder,false,false,false,33y 78d,Right hand Bat,Right arm Offbreak,2,2,,23,27,19,11.50,85.18,,,,1,0
 Nisarg Patel,United States of America,Allrounder,false,false,false,36y 13d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Shadley van Schalkwyk,United States of America,Allrounder,false,false,false,35y 272d,Left hand Bat,Right arm Medium,4,3,2,29,18,29.00,27,107.40,,,,4,0
-Ali Khan,United States of America,Bowler,false,false,false,33y 142d,Right hand Bat,Right arm Fast medium,,,,,,,,,,,,,
-Jasdeep Singh,United States of America,Bowler,false,false,false,31y 83d,Right hand Bat,Right arm Medium,,,,,,,,,,,,,
-Nosthush Kenjige,United States of America,Bowler,false,false,false,33y 62d,Right hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
-Saurabh Netravalkar,United States of America,Bowler,false,false,false,32y 200d,Right hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Rovman Powell,West Indies,Middle order Batter,false,true,false,30y 285d,Right hand Bat,Right arm Medium fast,7,6,,102,36,17.00,71,143.66,,,,4,8
-Johnson Charles,West Indies,Wicketkeeper Batter,false,false,false,35y 110d,Right hand Bat,,6,6,,140,44,23.33,123,113.82,,,2,18,3
+Shadley van Schalkwyk,United States of America,Allrounder,false,false,false,35y 272d,Left hand Bat,Right arm Medium,4,3,2,29,27,18,29.00,107.40,,,,4,0
+Ali Khan,United States of America,Bowler,false,false,false,33y 142d,Right hand Bat,Right arm Fast medium,6,2,1,14,8,14*,14.00,175.00,,,1,1,1
+Jasdeep Singh,United States of America,Bowler,false,false,false,31y 83d,Right hand Bat,Right arm Medium,4,2,1,4,13,2*,4.00,30.76,,,,0,0
+Nosthush Kenjige,United States of America,Bowler,false,false,false,33y 62d,Right hand Bat,Slow Left arm Orthodox,4,2,,1,4,1,0.50,25.00,,,1,0,0
+Saurabh Netravalkar,United States of America,Bowler,false,false,false,32y 200d,Right hand Bat,Left arm Fast medium,6,2,,,5,,0.00,0.00,,,2,0,0
+Rovman Powell,West Indies,Middle order Batter,false,true,false,30y 285d,Right hand Bat,Right arm Medium fast,7,6,,102,71,36,17.00,143.66,,,,4,8
+Johnson Charles,West Indies,Wicketkeeper Batter,false,false,false,35y 110d,Right hand Bat,,6,6,,140,123,44,23.33,113.82,,,2,18,3
 Shimron Hetmyer,West Indies,Middle order Batter,false,false,false,27y 129d,Left hand Bat,,,,,,,,,,,,,,
-Shai Hope,West Indies,Wicketkeeper Batter,false,false,false,30y 175d,Right hand Bat,,3,3,1,107,82*,53.50,57,187.71,,1,1,4,10
-Nicholas Pooran,West Indies,Wicketkeeper Batter,false,false,false,28y 214d,Left hand Bat,Right arm Offbreak,7,7,1,228,98,38.00,156,146.15,,1,,15,17
-Sherfane Rutherford,West Indies,Middle order Batter,false,false,false,25y 262d,Left hand Bat,Right arm Fast medium,7,6,3,121,68*,40.33,82,147.56,,1,1,5,9
-Brandon King,West Indies,Top order Batter,true,false,false,29y 139d,Right hand Bat,,5,5,1,86,34,21.50,68,126.47,,,,13,2
-Roston Chase,West Indies,Allrounder,false,false,false,32y 42d,Right hand Bat,Right arm Offbreak,6,3,1,94,52,47.00,72,130.55,,1,1,7,4
-Kyle Mayers,West Indies,Batting Allrounder,false,false,false,31y 238d,Left hand Bat,Right arm Medium,1,1,,35,35,35.00,34,102.94,,,,3,2
-Andre Russell,West Indies,Allrounder,false,false,false,36y 4d,Right hand Bat,Right arm Fast,7,6,3,78,30*,26.00,47,165.95,,,,8,4
-Romario Shepherd,West Indies,Bowling Allrounder,false,false,false,29y 159d,Right hand Bat,Right arm Fast medium,4,3,2,23,13,23.00,25,92.00,,,,1,1
+Shai Hope,West Indies,Wicketkeeper Batter,false,false,false,30y 175d,Right hand Bat,,3,3,1,107,57,82*,53.50,187.71,,1,1,4,10
+Nicholas Pooran,West Indies,Wicketkeeper Batter,false,false,false,28y 214d,Left hand Bat,Right arm Offbreak,7,7,1,228,156,98,38.00,146.15,,1,,15,17
+Sherfane Rutherford,West Indies,Middle order Batter,false,false,false,25y 262d,Left hand Bat,Right arm Fast medium,7,6,3,121,82,68*,40.33,147.56,,1,1,5,9
+Brandon King,West Indies,Top order Batter,true,false,false,29y 139d,Right hand Bat,,5,5,1,86,68,34,21.50,126.47,,,,13,2
+Roston Chase,West Indies,Allrounder,false,false,false,32y 42d,Right hand Bat,Right arm Offbreak,6,3,1,94,72,52,47.00,130.55,,1,1,7,4
+Kyle Mayers,West Indies,Batting Allrounder,false,false,false,31y 238d,Left hand Bat,Right arm Medium,1,1,,35,34,35,35.00,102.94,,,,3,2
+Andre Russell,West Indies,Allrounder,false,false,false,36y 4d,Right hand Bat,Right arm Fast,7,6,3,78,47,30*,26.00,165.95,,,,8,4
+Romario Shepherd,West Indies,Bowling Allrounder,false,false,false,29y 159d,Right hand Bat,Right arm Fast medium,4,3,2,23,25,13,23.00,92.00,,,,1,1
 Jason Holder,West Indies,Bowling Allrounder,true,false,false,32y 180d,Right hand Bat,Right arm Medium fast,,,,,,,,,,,,,
-Alzarri Joseph,West Indies,Bowler,false,false,true,27y 165d,Right hand Bat,Right arm Fast,,,,,,,,,,,,,
-Akeal Hosein,West Indies,Bowler,false,false,false,31y 8d,Left hand Bat,Slow Left arm Orthodox,7,2,,21,15,10.50,28,75.00,,,,1,1
+Alzarri Joseph,West Indies,Bowler,false,false,true,27y 165d,Right hand Bat,Right arm Fast,7,2,1,17,13,11*,17.00,130.76,,,,1,1
+Akeal Hosein,West Indies,Bowler,false,false,false,31y 8d,Left hand Bat,Slow Left arm Orthodox,7,2,,21,28,15,10.50,75.00,,,,1,1
 Shamar Joseph,West Indies,Bowler,false,false,false,24y 246d,Left hand Bat,Right arm Fast,,,,,,,,,,,,,
-Obed McCoy,West Indies,Bowler,false,false,false,27y 120d,Left hand Bat,Left arm Fast medium,,,,,,,,,,,,,
-Gudakesh Motie,West Indies,Bowler,false,false,false,29y 35d,Left hand Bat,Slow Left arm Orthodox,,,,,,,,,,,,,
+Obed McCoy,West Indies,Bowler,false,false,false,27y 120d,Left hand Bat,Left arm Fast medium,3,,,,0,,0.00,0.00,,,,0,0
+Gudakesh Motie,West Indies,Bowler,false,false,false,29y 35d,Left hand Bat,Slow Left arm Orthodox,7,2,2,4,8,4*,0.00,50.00,,,,1,0
