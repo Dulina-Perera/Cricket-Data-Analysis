@@ -233,6 +233,29 @@ module Scraper
 								end
 							end
 						end
+						if tables[1].find_elements(css: '.ds-bg-ui-fill-translucent', tag_name: 'tr').any?
+							stats = tables[1].find_elements(tag_name: 'tr')
+							stats.each do |player_stats|
+								if player_stats.text =~ BOWLING_STATS_PATTERN
+									if PLAYER_NAMES.include?($1)
+										players[PLAYER_NAMES[$1]].matches_played = $2
+										players[PLAYER_NAMES[$1]].innings_bowled = $3 == '-' ? nil : $3
+										players[PLAYER_NAMES[$1]].overs_bowled = $4
+										players[PLAYER_NAMES[$1]].maidens_earned = $5 == '-' ? nil : $5
+										players[PLAYER_NAMES[$1]].runs_conceded = $6 == '-' ? nil : $6
+										players[PLAYER_NAMES[$1]].wickets_taken = $7
+										players[PLAYER_NAMES[$1]].best_bowling_figures = $8 == '-' ? nil : $8
+										players[PLAYER_NAMES[$1]].bowling_average = $9
+										players[PLAYER_NAMES[$1]].economy_rate = $10 == '-' ? nil : $10
+										players[PLAYER_NAMES[$1]].bowling_strike_rate = $11 == '-' ? nil : $11
+										players[PLAYER_NAMES[$1]].five_wickets_haul = $12 == '-' ? nil : $12
+										players[PLAYER_NAMES[$1]].ten_wickets_haul = $13 == '-' ? nil : $13
+										players[PLAYER_NAMES[$1]].catches_taken = $14 == '-' ? nil : $14
+										players[PLAYER_NAMES[$1]].stumpings_made = $15 == '-' ? nil : $15
+									end
+								end
+							end
+						end
 						break
 					end
 				end

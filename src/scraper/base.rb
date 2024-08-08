@@ -55,7 +55,7 @@ module Scraper
 		end
 
 		def save_players_to_csv(players, filename)
-			CSV.open(filename, 'w+', write_headers: true, headers: %w[Name Team Role Has_Withdrawn Is_Captain Is_ViceCaptain Age Batting_Style Bowling_Style Matches_Played Innings_Batted Notouts Runs_Scored Balls_Faced Highest_Score Batting_Average Batting_Strike_Rate Hundreds Fifties Ducks Fours Sixes]) do |csv|
+			CSV.open(filename, 'w+', write_headers: true, headers: %w[Name Team Role Has_Withdrawn Is_Captain Is_ViceCaptain Age Batting_Style Bowling_Style Matches_Played Innings_Batted Notouts Runs_Scored Balls_Faced Highest_Score Batting_Average Batting_Strike_Rate Hundreds Fifties Ducks Fours Sixes Innings_Bowled Overs_Bowled Maidens_Earned Runs_Conceded Wickets_Taken Best_Bowling_Figures Bowling_Average Economy_Rate Bowling_Strike_Rate Five_Wickets_Haul Ten_Wickets_Haul Catches_Taken Stumpings_Made]) do |csv|
 				players.each do |player|
 					csv << player.to_h.values
 				end

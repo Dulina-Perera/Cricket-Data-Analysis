@@ -24,7 +24,20 @@ module Scraper
 			:fifties,
 			:ducks,
 			:fours,
-			:sixes
+			:sixes,
+			:innings_bowled,
+			:overs_bowled,
+			:maidens_earned,
+			:runs_conceded,
+			:wickets_taken,
+			:best_bowling_figures,
+			:bowling_average,
+			:economy_rate,
+			:bowling_strike_rate,
+			:five_wickets_haul,
+			:ten_wickets_haul,
+			:catches_taken,
+			:stumpings_made
 		)
 
 		def initialize(
@@ -49,7 +62,20 @@ module Scraper
 			fifties,
 			ducks,
 			fours,
-			sixes
+			sixes,
+			innings_bowled,
+			overs_bowled,
+			maidens_earned,
+			runs_conceded,
+			wickets_taken,
+			best_bowling_figures,
+			bowling_average,
+			economy_rate,
+			bowling_strike_rate,
+			five_wickets_haul,
+			ten_wickets_haul,
+			catches_taken,
+			stumpings_made
 		)
 			@name = name
 			@team = team
@@ -73,6 +99,19 @@ module Scraper
 			@ducks = ducks
 			@fours = fours
 			@sixes = sixes
+			@innings_bowled = innings_bowled
+			@overs_bowled = overs_bowled
+			@maidens_earned = maidens_earned
+			@runs_conceded = runs_conceded
+			@wickets_taken = wickets_taken
+			@best_bowling_figures = best_bowling_figures
+			@bowling_average = bowling_average
+			@economy_rate = economy_rate
+			@bowling_strike_rate = bowling_strike_rate
+			@five_wickets_haul = five_wickets_haul
+			@ten_wickets_haul = ten_wickets_haul
+			@catches_taken = catches_taken
+			@stumpings_made = stumpings_made
 		end
 
 		def to_h
@@ -98,7 +137,20 @@ module Scraper
 				'Fifties' => @fifties,
 				'Ducks' => @ducks,
 				'Fours' => @fours,
-				'Sixes' => @sixes
+				'Sixes' => @sixes,
+				'Innings_Bowled' => @innings_bowled,
+				'Overs_Bowled' => @overs_bowled,
+				'Maidens_Earned' => @maidens_earned,
+				'Runs_Conceded' => @runs_conceded,
+				'Wickets_Taken' => @wickets_taken,
+				'Best_Bowling_Figures' => @best_bowling_figures,
+				'Bowling_Average' => @bowling_average,
+				'Economy_Rate' => @economy_rate,
+				'Bowling_Strike_Rate' => @bowling_strike_rate,
+				'Five_Wickets_Haul' => @five_wickets_haul,
+				'Ten_Wickets_Haul' => @ten_wickets_haul,
+				'Catches_Taken' => @catches_taken,
+				'Stumpings_Made' => @stumpings_made
 			}
 		end
 	end
@@ -127,6 +179,19 @@ module Scraper
 			@ducks = nil
 			@fours = nil
 			@sixes = nil
+			@innings_bowled = nil
+			@overs_bowled = nil
+			@maidens_earned = nil
+			@runs_conceded = nil
+			@wickets_taken = nil
+			@best_bowling_figures = nil
+			@bowling_average = nil
+			@economy_rate = nil
+			@bowling_strike_rate = nil
+			@five_wickets_haul = nil
+			@ten_wickets_haul = nil
+			@catches_taken = nil
+			@stumpings_made = nil
 		end
 
 		def name(name)
@@ -239,6 +304,71 @@ module Scraper
 			self
 		end
 
+		def innings_bowled(innings_bowled)
+			@innings_bowled = innings_bowled
+			self
+		end
+
+		def overs_bowled(overs_bowled)
+			@overs_bowled = overs_bowled
+			self
+		end
+
+		def maidens_earned(maidens_earned)
+			@maidens_earned = maidens_earned
+			self
+		end
+
+		def runs_conceded(runs_conceded)
+			@runs_conceded = runs_conceded
+			self
+		end
+
+		def wickets_taken(wickets_taken)
+			@wickets_taken = wickets_taken
+			self
+		end
+
+		def best_bowling_figures(best_bowling_figures)
+			@best_bowling_figures = best_bowling_figures
+			self
+		end
+
+		def bowling_average(bowling_average)
+			@bowling_average = bowling_average
+			self
+		end
+
+		def economy_rate(economy_rate)
+			@economy_rate = economy_rate
+			self
+		end
+
+		def bowling_strike_rate(bowling_strike_rate)
+			@bowling_strike_rate = bowling_strike_rate
+			self
+		end
+
+		def five_wickets_haul(five_wickets_haul)
+			@five_wickets_haul = five_wickets_haul
+			self
+		end
+
+		def ten_wickets_haul(ten_wickets_haul)
+			@ten_wickets_haul = ten_wickets_haul
+			self
+		end
+
+		def catches_taken(catches_taken)
+			@catches_taken = catches_taken
+			self
+		end
+
+		def stumpings_made(stumpings_made)
+			@stumpings_made = stumpings_made
+			self
+		end
+
 		def build
 			Player.new(
 				@name,
@@ -262,7 +392,20 @@ module Scraper
 				@fifties,
 				@ducks,
 				@fours,
-				@sixes
+				@sixes,
+				@innings_bowled,
+				@overs_bowled,
+				@maidens_earned,
+				@runs_conceded,
+				@wickets_taken,
+				@best_bowling_figures,
+				@bowling_average,
+				@economy_rate,
+				@bowling_strike_rate,
+				@five_wickets_haul,
+				@ten_wickets_haul,
+				@catches_taken,
+				@stumpings_made
 			)
 		end
 	end
