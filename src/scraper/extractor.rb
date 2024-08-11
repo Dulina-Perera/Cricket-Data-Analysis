@@ -23,6 +23,7 @@ module Scraper
 			matches = extract_descriptions_and_results
 			extract_venues_and_dates(matches)
 			extract_teams_and_innings(matches)
+			extract_details(url, matches)
 
 			matches
 		end
@@ -105,6 +106,51 @@ module Scraper
 
 				temp = parent_element[1].find_elements(tag_name: 'div')[1]
 				match.inning_2 = temp&.find_element(tag_name: 'strong')&.text
+			end
+		end
+
+		def extract_details(url, matches)
+			wait = Selenium::WebDriver::Wait.new(timeout: 10)
+
+			for i in 1..matches.length
+				@driver.navigate.to(url)
+
+				links = @driver.find_elements(css: '.ds-no-tap-higlight', tag_name: 'a')
+				link = links[i - 1]
+
+				@driver.execute_script("arguments[0].scrollIntoView(true);", link)
+				wait.until { link.displayed? && link.enabled? }
+
+				begin
+					link.click
+				rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+					@driver.execute_script("arguments[0].click();", link)
+				end
+
+				wait.until { @driver.find_element(css: '.ds-border-r.ds-border-line.ds-text-typo-mid1') }
+
+				match_details = @driver.find_elements(css: '.ds-border-r.ds-border-line.ds-text-typo-mid1', tag_name: 'tr')
+				match_details.each do |key|
+					value = key.find_element(xpath: './following-sibling::*[1]').text
+
+					if key.text == 'Toss'
+						if value != 'no toss'
+							matches[i - 1].toss = value.split(',')[0]
+						end
+					elsif key.text == 'Player Of The Match'
+						matches[i - 1].player_of_the_match = value
+					elsif key.text == 'Umpires'
+						umpires = key.find_element(xpath: './following-sibling::*[1]').find_elements(css: '.ds-cursor-pointer.ds-inline-flex.ds-items-start.ds-leading-none')
+						matches[i - 1].umpire_1 = umpires[0].text
+						matches[i - 1].umpire_2 = umpires[1].text
+					elsif key.text == 'TV Umpire'
+						matches[i - 1].tv_umpire = value
+					elsif key.text == 'Reserve Umpire'
+						matches[i - 1].reserve_umpire = value
+					elsif key.text == 'Match Referee'
+						matches[i - 1].match_refree = value
+					end
+				end
 			end
 		end
 

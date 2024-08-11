@@ -1,56 +1,56 @@
-Match_Number,Type,Group,Venue,Date,Team_1,Team_2,Inning_1,Inning_2,Winner,Win_By
-1,Group,A,Dallas,"June 01, 2024",Canada,United States of America,194/5,197/3,United States of America,7 wickets (with 14 balls remaining)
-2,Group,C,Providence,"June 02, 2024",Papua New Guinea,West Indies,136/8,137/5,West Indies,5 wickets (with 6 balls remaining)
-3,Group,B,Bridgetown,"June 02, 2024",Oman,Namibia,109,109/6,Namibia,Super over
-4,Group,D,New York,"June 03, 2024",Sri Lanka,South Africa,77,80/4,South Africa,6 wickets (with 22 balls remaining)
-5,Group,C,Providence,"June 03, 2024",Afghanistan,Uganda,183/5,58,Afghanistan,125 runs
-6,Group,B,Bridgetown,"June 04, 2024",Scotland,England,90/0,,,No result
-7,Group,D,Dallas,"June 04, 2024",Nepal,Netherlands,106,109/4,Netherlands,6 wickets (with 8 balls remaining)
-8,Group,A,New York,"June 05, 2024",Ireland,India,96,97/2,India,8 wickets (with 46 balls remaining)
-9,Group,C,Providence,"June 05, 2024",Papua New Guinea,Uganda,77,78/7,Uganda,3 wickets (with 10 balls remaining)
-10,Group,B,Bridgetown,"June 05, 2024",Australia,Oman,164/5,125/9,Australia,39 runs
-11,Group,A,Dallas,"June 06, 2024",Pakistan,United States of America,159/7,159/3,United States of America,Super over
-12,Group,B,Bridgetown,"June 06, 2024",Namibia,Scotland,155/9,157/5,Scotland,5 wickets (with 9 balls remaining)
-13,Group,A,New York,"June 07, 2024",Canada,Ireland,137/7,125/7,Canada,12 runs
-14,Group,C,Providence,"June 07, 2024",Afghanistan,New Zealand,159/6,75,Afghanistan,84 runs
-15,Group,D,Dallas,"June 07, 2024",Sri Lanka,Bangladesh,124/9,125/8,Bangladesh,2 wickets (with 6 balls remaining)
-16,Group,D,New York,"June 08, 2024",Netherlands,South Africa,103/9,106/6,South Africa,4 wickets (with 7 balls remaining)
-17,Group,B,Bridgetown,"June 08, 2024",Australia,England,201/7,165/6,Australia,36 runs
-18,Group,C,Providence,"June 08, 2024",West Indies,Uganda,173/5,39,West Indies,134 runs
-19,Group,A,New York,"June 09, 2024",India,Pakistan,119,113/7,India,6 runs
-20,Group,B,North Sound,"June 09, 2024",Oman,Scotland,150/7,153/3,Scotland,7 wickets (with 41 balls remaining)
-21,Group,D,New York,"June 10, 2024",South Africa,Bangladesh,113/6,109/7,South Africa,4 runs
-22,Group,A,New York,"June 11, 2024",Canada,Pakistan,106/7,107/3,Pakistan,7 wickets (with 15 balls remaining)
-23,Group,D,Lauderhill,"June 11, 2024",Nepal,Sri Lanka,,,,Match abandoned without a ball bowled
-24,Group,B,North Sound,"June 11, 2024",Namibia,Australia,72,74/1,Australia,9 wickets (with 86 balls remaining)
-25,Group,A,New York,"June 12, 2024",United States of America,India,110/8,111/3,India,7 wickets (with 10 balls remaining)
-26,Group,C,Tarouba,"June 12, 2024",West Indies,New Zealand,149/9,136/9,West Indies,13 runs
-27,Group,D,Kingstown,"June 13, 2024",Bangladesh,Netherlands,159/5,134/8,Bangladesh,25 runs
-28,Group,B,North Sound,"June 13, 2024",Oman,England,47,50/2,England,8 wickets (with 101 balls remaining)
-29,Group,C,Tarouba,"June 13, 2024",Papua New Guinea,Afghanistan,95,101/3,Afghanistan,7 wickets (with 29 balls remaining)
-30,Group,A,Lauderhill,"June 14, 2024",United States of America,Ireland,,,,Match abandoned without a ball bowled
-31,Group,D,Kingstown,"June 14, 2024",South Africa,Nepal,115/7,114/7,South Africa,1 run
-32,Group,C,Tarouba,"June 14, 2024",Uganda,New Zealand,40,41/1,New Zealand,9 wickets (with 88 balls remaining)
-33,Group,A,Lauderhill,"June 15, 2024",Canada,India,,,,Match abandoned without a ball bowled
-34,Group,B,North Sound,"June 15, 2024",England,Namibia,122/5,84/3,England,41 runs (DLS method)
-35,Group,B,Gros Islet,"June 15, 2024",Scotland,Australia,180/5,186/5,Australia,5 wickets (with 2 balls remaining)
-36,Group,A,Lauderhill,"June 16, 2024",Ireland,Pakistan,106/9,111/7,Pakistan,3 wickets (with 7 balls remaining)
-37,Group,D,Kingstown,"June 16, 2024",Bangladesh,Nepal,106,85,Bangladesh,21 runs
-38,Group,D,Gros Islet,"June 16, 2024",Sri Lanka,Netherlands,201/6,118,Sri Lanka,83 runs
-39,Group,C,Tarouba,"June 17, 2024",Papua New Guinea,New Zealand,78,79/3,New Zealand,7 wickets (with 46 balls remaining)
-40,Group,C,Gros Islet,"June 17, 2024",West Indies,Afghanistan,218/5,114,West Indies,104 runs
-41,Super Eight,2,North Sound,"June 19, 2024",South Africa,United States of America,194/4,176/6,South Africa,18 runs
-42,Super Eight,2,Gros Islet,"June 19, 2024",West Indies,England,180/4,181/2,England,8 wickets (with 15 balls remaining)
-43,Super Eight,1,Bridgetown,"June 20, 2024",India,Afghanistan,181/8,134,India,47 runs
-44,Super Eight,1,North Sound,"June 20, 2024",Bangladesh,Australia,140/8,100/2,Australia,28 runs (DLS method)
-45,Super Eight,2,Gros Islet,"June 21, 2024",South Africa,England,163/6,156/6,South Africa,7 runs
-46,Super Eight,2,Bridgetown,"June 21, 2024",United States of America,West Indies,128,130/1,West Indies,9 wickets (with 55 balls remaining)
-47,Super Eight,1,North Sound,"June 22, 2024",India,Bangladesh,196/5,146/8,India,50 runs
-48,Super Eight,1,Kingstown,"June 22, 2024",Afghanistan,Australia,148/6,127,Afghanistan,21 runs
-49,Super Eight,2,Bridgetown,"June 23, 2024",United States of America,England,115,117/0,England,10 wickets (with 62 balls remaining)
-50,Super Eight,2,North Sound,"June 23, 2024",West Indies,South Africa,135/8,124/7,South Africa,3 wickets (with 5 balls remaining) (DLS method)
-51,Super Eight,1,Gros Islet,"June 24, 2024",India,Australia,205/5,181/7,India,24 runs
-52,Super Eight,1,Kingstown,"June 24, 2024",Afghanistan,Bangladesh,115/5,105,Afghanistan,8 runs (DLS method)
-53,Semi Final,,Tarouba,"June 26, 2024",Afghanistan,South Africa,56,60/1,South Africa,9 wickets (with 67 balls remaining)
-54,Semi Final,,Providence,"June 27, 2024",India,England,171/7,103,India,68 runs
-55,Final,,Bridgetown,"June 29, 2024",India,South Africa,176/7,169/8,India,7 runs
+Match_Number,Type,Group,Venue,Date,Match_Refree,Umpire_1,Umpire_2,TV_Umpire,Reserve_Umpire,Team_1,Team_2,Toss,Inning_1,Inning_2,Winner,Win_By,Player_Of_The_Match
+1,Group,A,Dallas,"June 01, 2024",Richie Richardson,Richard Illingworth,Sharfuddoula,Sam Nogajski,Langton Rusere,Canada,United States of America,United States of America,194/5,197/3,United States of America,7 wickets (with 14 balls remaining),Aaron Jones
+2,Group,C,Providence,"June 02, 2024",Andy Pycroft,Adrian Holdstock,Rashid Riaz,Ahsan Raza,Kumar Dharmasena,Papua New Guinea,West Indies,West Indies,136/8,137/5,West Indies,5 wickets (with 6 balls remaining),Roston Chase
+3,Group,B,Bridgetown,"June 02, 2024",Ranjan Madugalle,Jayaraman Madanagopal,Joel Wilson,Nitin Menon,Asif Yaqoob,Oman,Namibia,Namibia,109,109/6,Namibia,Super over,David Wiese
+4,Group,D,New York,"June 03, 2024",Jeff Crowe,Chris Brown,Richard Kettleborough,Paul Reiffel,Alex Wharf,Sri Lanka,South Africa,Sri Lanka,77,80/4,South Africa,6 wickets (with 22 balls remaining),Anrich Nortje
+5,Group,C,Providence,"June 03, 2024",Andy Pycroft,Ahsan Raza,Kumar Dharmasena,Adrian Holdstock,Rashid Riaz,Afghanistan,Uganda,Uganda,183/5,58,Afghanistan,125 runs,Fazalhaq Farooqi
+6,Group,B,Bridgetown,"June 04, 2024",Ranjan Madugalle,Asif Yaqoob,Nitin Menon,Joel Wilson,Jayaraman Madanagopal,Scotland,England,Scotland,90/0,,,No result,
+7,Group,D,Dallas,"June 04, 2024",Richie Richardson,Langton Rusere,Rod Tucker,Sharfuddoula,Richard Illingworth,Nepal,Netherlands,Netherlands,106,109/4,Netherlands,6 wickets (with 8 balls remaining),Tim Pringle
+8,Group,A,New York,"June 05, 2024",David Boon,Alex Wharf,Chris Gaffaney,Richard Kettleborough,Chris Brown,Ireland,India,India,96,97/2,India,8 wickets (with 46 balls remaining),Jasprit Bumrah
+9,Group,C,Providence,"June 05, 2024",Javagal Srinath,Adrian Holdstock,Rashid Riaz,Ahsan Raza,Kumar Dharmasena,Papua New Guinea,Uganda,Uganda,77,78/7,Uganda,3 wickets (with 10 balls remaining),Riazat Ali Shah
+10,Group,B,Bridgetown,"June 05, 2024",Ranjan Madugalle,Asif Yaqoob,Joel Wilson,Jayaraman Madanagopal,Nitin Menon,Australia,Oman,Oman,164/5,125/9,Australia,39 runs,Marcus Stoinis
+11,Group,A,Dallas,"June 06, 2024",Jeff Crowe,Allahuddien Paleker,Michael Gough,Paul Reiffel,Rod Tucker,Pakistan,United States of America,United States of America,159/7,159/3,United States of America,Super over,Monank Patel
+12,Group,B,Bridgetown,"June 06, 2024",Andy Pycroft,Jayaraman Madanagopal,Nitin Menon,Asif Yaqoob,Joel Wilson,Namibia,Scotland,Namibia,155/9,157/5,Scotland,5 wickets (with 9 balls remaining),Michael Leask
+13,Group,A,New York,"June 07, 2024",Richie Richardson,Richard Kettleborough,Sam Nogajski,Chris Brown,Chris Gaffaney,Canada,Ireland,Ireland,137/7,125/7,Canada,12 runs,Nicholas Kirton
+14,Group,C,Providence,"June 07, 2024",Javagal Srinath,Ahsan Raza,Kumar Dharmasena,Rashid Riaz,Adrian Holdstock,Afghanistan,New Zealand,New Zealand,159/6,75,Afghanistan,84 runs,Rahmanullah Gurbaz
+15,Group,D,Dallas,"June 07, 2024",Jeff Crowe,Michael Gough,Paul Reiffel,Allahuddien Paleker,Rod Tucker,Sri Lanka,Bangladesh,Bangladesh,124/9,125/8,Bangladesh,2 wickets (with 6 balls remaining),Rishad Hossain
+16,Group,D,New York,"June 08, 2024",David Boon,Chris Gaffaney,Sharfuddoula,Richard Kettleborough,Sam Nogajski,Netherlands,South Africa,South Africa,103/9,106/6,South Africa,4 wickets (with 7 balls remaining),David Miller
+17,Group,B,Bridgetown,"June 08, 2024",Andy Pycroft,Joel Wilson,Nitin Menon,Asif Yaqoob,Jayaraman Madanagopal,Australia,England,England,201/7,165/6,Australia,36 runs,Adam Zampa
+18,Group,C,Providence,"June 08, 2024",Javagal Srinath,Kumar Dharmasena,Rashid Riaz,Adrian Holdstock,Ahsan Raza,West Indies,Uganda,West Indies,173/5,39,West Indies,134 runs,Akeal Hosein
+19,Group,A,New York,"June 09, 2024",David Boon,Richard Illingworth,Rod Tucker,Chris Gaffaney,Sharfuddoula,India,Pakistan,Pakistan,119,113/7,India,6 runs,Jasprit Bumrah
+20,Group,B,North Sound,"June 09, 2024",Richie Richardson,Allahuddien Paleker,Chris Brown,Langton Rusere,Alex Wharf,Oman,Scotland,Oman,150/7,153/3,Scotland,7 wickets (with 41 balls remaining),Brandon McMullen
+21,Group,D,New York,"June 10, 2024",Ranjan Madugalle,Richard Illingworth,Sam Nogajski,Michael Gough,Paul Reiffel,South Africa,Bangladesh,South Africa,113/6,109/7,South Africa,4 runs,Heinrich Klaasen
+22,Group,A,New York,"June 11, 2024",Ranjan Madugalle,Adrian Holdstock,Kumar Dharmasena,Sam Nogajski,Paul Reiffel,Canada,Pakistan,Pakistan,106/7,107/3,Pakistan,7 wickets (with 15 balls remaining),Mohammad Amir
+23,Group,D,Lauderhill,"June 11, 2024",Jeff Crowe,Chris Gaffaney,Richard Kettleborough,Rod Tucker,Sharfuddoula,Nepal,Sri Lanka,,,,,Match abandoned without a ball bowled,
+24,Group,B,North Sound,"June 11, 2024",Javagal Srinath,Nitin Menon,Rashid Riaz,Langton Rusere,Allahuddien Paleker,Namibia,Australia,Australia,72,74/1,Australia,9 wickets (with 86 balls remaining),Adam Zampa
+25,Group,A,New York,"June 12, 2024",Ranjan Madugalle,Paul Reiffel,Sam Nogajski,Kumar Dharmasena,Adrian Holdstock,United States of America,India,India,110/8,111/3,India,7 wickets (with 10 balls remaining),Arshdeep Singh
+26,Group,C,Tarouba,"June 12, 2024",David Boon,Ahsan Raza,Alex Wharf,Richard Illingworth,Michael Gough,West Indies,New Zealand,New Zealand,149/9,136/9,West Indies,13 runs,Sherfane Rutherford
+27,Group,D,Kingstown,"June 13, 2024",Richie Richardson,Chris Brown,Jayaraman Madanagopal,Allahuddien Paleker,Joel Wilson,Bangladesh,Netherlands,Netherlands,159/5,134/8,Bangladesh,25 runs,Shakib Al Hasan
+28,Group,B,North Sound,"June 13, 2024",Andy Pycroft,Asif Yaqoob,Langton Rusere,Nitin Menon,Rashid Riaz,Oman,England,England,47,50/2,England,8 wickets (with 101 balls remaining),Adil Rashid
+29,Group,C,Tarouba,"June 13, 2024",David Boon,Alex Wharf,Michael Gough,Richard Illingworth,Ahsan Raza,Papua New Guinea,Afghanistan,Afghanistan,95,101/3,Afghanistan,7 wickets (with 29 balls remaining),Fazalhaq Farooqi
+30,Group,A,Lauderhill,"June 14, 2024",Javagal Srinath,Rod Tucker,Sharfuddoula,Chris Gaffaney,Richard Kettleborough,United States of America,Ireland,,,,,Match abandoned without a ball bowled,
+31,Group,D,Kingstown,"June 14, 2024",Richie Richardson,Jayaraman Madanagopal,Joel Wilson,Chris Brown,Sam Nogajski,South Africa,Nepal,Nepal,115/7,114/7,South Africa,1 run,Tabraiz Shamsi
+32,Group,C,Tarouba,"June 14, 2024",David Boon,Paul Reiffel,Richard Illingworth,Kumar Dharmasena,Ahsan Raza,Uganda,New Zealand,New Zealand,40,41/1,New Zealand,9 wickets (with 88 balls remaining),Tim Southee
+33,Group,A,Lauderhill,"June 15, 2024",Andy Pycroft,Richard Kettleborough,Sharfuddoula,Rod Tucker,Chris Gaffaney,Canada,India,,,,,Match abandoned without a ball bowled,
+34,Group,B,North Sound,"June 15, 2024",Ranjan Madugalle,Adrian Holdstock,Langton Rusere,Rashid Riaz,Nitin Menon,England,Namibia,Namibia,122/5,84/3,England,41 runs (DLS method),Harry Brook
+35,Group,B,Gros Islet,"June 15, 2024",Jeff Crowe,Asif Yaqoob,Michael Gough,Alex Wharf,Allahuddien Paleker,Scotland,Australia,Australia,180/5,186/5,Australia,5 wickets (with 2 balls remaining),Marcus Stoinis
+36,Group,A,Lauderhill,"June 16, 2024",Javagal Srinath,Chris Gaffaney,Rod Tucker,Sharfuddoula,Richard Kettleborough,Ireland,Pakistan,Pakistan,106/9,111/7,Pakistan,3 wickets (with 7 balls remaining),Shaheen Shah Afridi
+37,Group,D,Kingstown,"June 16, 2024",Richie Richardson,Ahsan Raza,Sam Nogajski,Jayaraman Madanagopal,Kumar Dharmasena,Bangladesh,Nepal,Nepal,106,85,Bangladesh,21 runs,Tanzim Hasan Sakib
+38,Group,D,Gros Islet,"June 16, 2024",Jeff Crowe,Alex Wharf,Allahuddien Paleker,Michael Gough,Asif Yaqoob,Sri Lanka,Netherlands,Netherlands,201/6,118,Sri Lanka,83 runs,Charith Asalanka
+39,Group,C,Tarouba,"June 17, 2024",David Boon,Langton Rusere,Paul Reiffel,Joel Wilson,Richard Illingworth,Papua New Guinea,New Zealand,New Zealand,78,79/3,New Zealand,7 wickets (with 46 balls remaining),Lockie Ferguson
+40,Group,C,Gros Islet,"June 17, 2024",Jeff Crowe,Allahuddien Paleker,Chris Brown,Alex Wharf,Michael Gough,West Indies,Afghanistan,Afghanistan,218/5,114,West Indies,104 runs,Nicholas Pooran
+41,Super Eight,2,North Sound,"June 19, 2024",Ranjan Madugalle,Chris Gaffaney,Richard Kettleborough,Joel Wilson,Langton Rusere,South Africa,United States of America,United States of America,194/4,176/6,South Africa,18 runs,Quinton de Kock
+42,Super Eight,2,Gros Islet,"June 19, 2024",Jeff Crowe,Ahsan Raza,Nitin Menon,Sharfuddoula,Chris Brown,West Indies,England,England,180/4,181/2,England,8 wickets (with 15 balls remaining),Phil Salt
+43,Super Eight,1,Bridgetown,"June 20, 2024",David Boon,Paul Reiffel,Rod Tucker,Allahuddien Paleker,Alex Wharf,India,Afghanistan,India,181/8,134,India,47 runs,Suryakumar Yadav
+44,Super Eight,1,North Sound,"June 20, 2024",Richie Richardson,Michael Gough,Richard Illingworth,Kumar Dharmasena,Adrian Holdstock,Bangladesh,Australia,Australia,140/8,100/2,Australia,28 runs (DLS method),Pat Cummins
+45,Super Eight,2,Gros Islet,"June 21, 2024",Jeff Crowe,Chris Brown,Sharfuddoula,Joel Wilson,Chris Gaffaney,South Africa,England,England,163/6,156/6,South Africa,7 runs,Quinton de Kock
+46,Super Eight,2,Bridgetown,"June 21, 2024",David Boon,Allahuddien Paleker,Paul Reiffel,Rod Tucker,Alex Wharf,United States of America,West Indies,West Indies,128,130/1,West Indies,9 wickets (with 55 balls remaining),Roston Chase
+47,Super Eight,1,North Sound,"June 22, 2024",Ranjan Madugalle,Adrian Holdstock,Michael Gough,Langton Rusere,Richard Kettleborough,India,Bangladesh,Bangladesh,196/5,146/8,India,50 runs,Hardik Pandya
+48,Super Eight,1,Kingstown,"June 22, 2024",Jeff Crowe,Ahsan Raza,Kumar Dharmasena,Richard Illingworth,Nitin Menon,Afghanistan,Australia,Australia,148/6,127,Afghanistan,21 runs,Gulbadin Naib
+49,Super Eight,2,Bridgetown,"June 23, 2024",David Boon,Chris Gaffaney,Joel Wilson,Paul Reiffel,Allahuddien Paleker,United States of America,England,England,115,117/0,England,10 wickets (with 62 balls remaining),Adil Rashid
+50,Super Eight,2,North Sound,"June 23, 2024",Ranjan Madugalle,Alex Wharf,Rod Tucker,Chris Brown,Sharfuddoula,West Indies,South Africa,South Africa,135/8,124/7,South Africa,3 wickets (with 5 balls remaining) (DLS method),Tabraiz Shamsi
+51,Super Eight,1,Gros Islet,"June 24, 2024",Jeff Crowe,Richard Illingworth,Richard Kettleborough,Michael Gough,Kumar Dharmasena,India,Australia,Australia,205/5,181/7,India,24 runs,Rohit Sharma
+52,Super Eight,1,Kingstown,"June 24, 2024",Richie Richardson,Langton Rusere,Nitin Menon,Adrian Holdstock,Ahsan Raza,Afghanistan,Bangladesh,Afghanistan,115/5,105,Afghanistan,8 runs (DLS method),Naveen-ul-Haq
+53,Semi Final,,Tarouba,"June 26, 2024",Richie Richardson,Nitin Menon,Richard Illingworth,Richard Kettleborough,Ahsan Raza,Afghanistan,South Africa,Afghanistan,56,60/1,South Africa,9 wickets (with 67 balls remaining),Marco Jansen
+54,Semi Final,,Providence,"June 27, 2024",Jeff Crowe,Chris Gaffaney,Rod Tucker,Joel Wilson,Paul Reiffel,India,England,England,171/7,103,India,68 runs,Axar Patel
+55,Final,,Bridgetown,"June 29, 2024",Richie Richardson,Chris Gaffaney,Richard Illingworth,Richard Kettleborough,Rod Tucker,India,South Africa,India,176/7,169/8,India,7 runs,Virat Kohli

@@ -6,8 +6,6 @@ require_relative 'extractor'
 
 module Scraper
 	class Scraper
-		attr_reader :players
-
 		def initialize
 			@navigator = Navigator.new(driver_type = :chrome)
 		end
@@ -16,7 +14,10 @@ module Scraper
 			@navigator.finalize
 		end
 
-		def scrape_fixtures_and_results(url, output_file)
+		def scrape_fixtures_and_results(
+			url,
+			output_file
+		)
 			extractor = FixturesAndResultsExtractor.new(@navigator.driver)
 
 			fixtures_and_results = extractor.extract(url)
@@ -47,7 +48,7 @@ module Scraper
 		private
 
 		def save_fixtures_and_results_to_csv(fixtures_and_results, filename)
-			CSV.open(filename, 'w+', write_headers: true, headers: %w[Match_Number Type Group Venue Date Team_1 Team_2 Inning_1 Inning_2 Winner Win_By]) do |csv|
+			CSV.open(filename, 'w+', write_headers: true, headers: %w[Match_Number Type Group Venue Date Match_Refree Umpire_1 Umpire_2 TV_Umpire Reserve_Umpire Team_1 Team_2 Toss Inning_1 Inning_2 Winner Win_By Player_Of_The_Match]) do |csv|
 				fixtures_and_results.each do |fixture_and_result|
 					csv << fixture_and_result.to_h.values
 				end
